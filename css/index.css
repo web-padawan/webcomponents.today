@@ -16,7 +16,9 @@ html {
 
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
   line-height: 24px;
@@ -117,6 +119,17 @@ body {
 
 .tool-wrap:hover {
   box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.18);
+}
+
+.quote {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #4b4b4e;
+  font-weight: 400;
+  font-size: 1.125rem;
 }
 
 @media screen and (max-width: 991px) {
