@@ -86,13 +86,10 @@ body {
 
 .content-grid {
   display: grid;
-  margin-bottom: 30px;
-  grid-auto-flow: row;
-  grid-auto-columns: 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  row-gap: 24px;
+  column-gap: 24px;
+  margin-bottom: 30px;
 }
 
 .content-wrap {
@@ -102,14 +99,10 @@ body {
 }
 
 .tool-wrap {
-  position: relative;
-  display: flex;
+  display: block;
   height: 100%;
   padding: 32px;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-  border: 2px solid #e2e2e2;
+  border: 2px solid #cbcbcd;
   border-radius: 12px;
   background-color: #fff;
   transition: box-shadow 400ms ease;
@@ -121,7 +114,23 @@ body {
   box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.18);
 }
 
+.thumbnail {
+  width: 80px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: solid 1px #cbcbcd;
+}
+
+h3 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 34px;
+  color: #0e1724;
+}
+
 .quote {
+  margin: 0;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
@@ -132,7 +141,7 @@ body {
   font-size: 1.125rem;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1099px) {
   .section.content {
     padding-top: 20px;
     padding-right: 0px;

@@ -7,6 +7,7 @@ layout: layout
   {%- for item in items -%}
     <div role="listitem">
       <a href="{{ item.url }}" class="tool-wrap" target="_blank">
+        <img class="thumbnail" src="/img/{{ item.thumbnail }}" alt="">
         <h3>{{ item.title }}</h3>
         <p class="quote">
           {{ item.quote }}
