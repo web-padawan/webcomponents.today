@@ -1,7 +1,8 @@
 module.exports = {
   url: "shadow-dom",
   title: "Shadow DOM",
-  description: "A way to isolate DOM subtree and encapsulate styles",
+  description:
+    "Method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better DOM encapsulation and composition.",
   items: [
     {
       url: "https://bitsofco.de/what-is-the-shadow-dom/",

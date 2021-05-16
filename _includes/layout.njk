@@ -10,7 +10,12 @@
   <body>
     <div class="section navbar">
       <div class="container">
-        <div class="header-note-text">A collection of the most relevant Web Components resources.</div>
+        <div class="navbar-inner">
+          <a class="navbar-logo-wrap" href="/">
+            <img class="navbar-logo" src="/img/webcomponents.png" alt="logo">
+          </a>
+          <h1 class="navbar-title">Web Components bookmarks</h1>
+        </div>
       </div>
     </div>
 
@@ -19,11 +24,12 @@
         <div class="content-wrap">
           <div class="sidebar">
             <div class="sidebar-wrap">
+              <h3 class="sidebar-title">Categories</h3>
               {% set navPages = collections.all | eleventyNavigation %}
-              <ul>
+              <ul class="sidebar-nav">
               {%- for entry in navPages %}
-                <li{% if entry.url == page.url %} class="active"{% endif %}>
-                  <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                <li class="sidebar-item">
+                  <a class="sidebar-link {% if entry.url == page.url %} active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
                 </li>
               {%- endfor %}
               </ul>
