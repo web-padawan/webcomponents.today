@@ -1,0 +1,9 @@
+{
+  "title": "Web Components resources",
+  "url": "https://web-components-resources.netlify.com",
+  "description": "A curated collection of Web Components resources",
+  "author": {
+    "name": "Serhii Kulykov",
+    "email": "iamkulykov@gmail.com"
+  }
+}

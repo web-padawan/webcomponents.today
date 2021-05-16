@@ -1,0 +1,17 @@
+---
+layout: layout
+---
+
+<div role="list" class="content-grid">
+
+  {%- for item in items -%}
+    <div role="listitem">
+      <a href="{{ item.url }}" class="tool-wrap" target="_blank">
+        <h3>{{ item.title }}</h3>
+        <br>
+        {{ item.quote }}
+      </a>
+    </div>
+  {% endfor %}
+
+</div>

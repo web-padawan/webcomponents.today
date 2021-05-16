@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+  </head>
+  <body>
+    <div class="section navbar">
+      <div class="container">
+        <div class="header-note-text">A collection of the most relevant Web Components resources.</div>
+      </div>
+    </div>
+
+    <div class="section content">
+      <div class="container">
+        <div class="content-wrap">
+          <div class="sidebar">
+            <div class="sidebar-wrap">
+              {% set navPages = collections.all | eleventyNavigation %}
+              <ul>
+              {%- for entry in navPages %}
+                <li{% if entry.url == page.url %} class="active"{% endif %}>
+                  <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                </li>
+              {%- endfor %}
+              </ul>
+            </div>
+          </div>
+          <div class="tools-wrap">
+            {{ content | safe }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>
