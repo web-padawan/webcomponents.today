@@ -1,6 +1,6 @@
 module.exports = {
   url: "custom-elements",
-  title: "Custom Elements",
+  header: "Custom Elements",
   description:
     "Custom Elements provide a way for authors to build their own fully-featured DOM elements.",
   items: [

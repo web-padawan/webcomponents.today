@@ -8,36 +8,52 @@
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
   </head>
   <body>
-    <div class="section navbar">
+    <div class="navbar">
       <div class="container">
-        <div class="navbar-inner">
-          <a class="navbar-logo-wrap" href="/">
-            <img class="navbar-logo" src="/img/webcomponents.png" alt="logo">
+        <div class="navbar__inner">
+          <a class="navbar__link" href="/">
+            <img class="navbar__logo" src="/img/webcomponents.png" alt="logo">
+            <h1 class="navbar__title">{{ metadata.title }}</h1>
           </a>
-          <h1 class="navbar-title">Web Components bookmarks</h1>
         </div>
       </div>
     </div>
 
-    <div class="section content">
+    <div class="content">
       <div class="container">
-        <div class="content-wrap">
+        <div class="content__wrapper">
           <div class="sidebar">
-            <div class="sidebar-wrap">
-              <h3 class="sidebar-title">Categories</h3>
+            <div class="sidebar__wrapper">
+              <h3 class="sidebar__title">Categories</h3>
               {% set navPages = collections.all | eleventyNavigation %}
-              <ul class="sidebar-nav">
+              <ul class="nav">
               {%- for entry in navPages %}
-                <li class="sidebar-item">
-                  <a class="sidebar-link {% if entry.url == page.url %} active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                <li class="nav__item">
+                  <a class="nav__link {% if entry.url == page.url %} nav__link--active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
                 </li>
               {%- endfor %}
               </ul>
             </div>
           </div>
-          <div class="tools-wrap">
-            {{ content | safe }}
-          </div>
+          <main class="main">
+
+          {%- if header %}
+            <h2 class="main__title">{{ header }}</h2>
+            <p class="main__description">{{ description }}</p>
+          {%- endif %}
+
+            <div class="main__grid">
+            {%- for item in items %}
+              <a href="{{ item.url }}" class="item" target="_blank">
+                <img class="item__thumbnail" src="/img/{{ item.thumbnail }}" alt="">
+                <h3 class="item__title">{{ item.title }}</h3>
+                <p class="item__quote">
+                  {{ item.quote }}
+                </p>
+              </a>
+            {% endfor -%}
+            </div>
+          </main>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 module.exports = {
   url: "shadow-dom",
-  title: "Shadow DOM",
+  header: "Shadow DOM",
   description:
     "Shadow DOM provides a standards based way of DOM encapsulation and composition.",
   items: [
@@ -63,7 +63,7 @@ module.exports = {
     {
       url: "https://pm.dartus.fr/blog/a-complete-guide-on-shadow-dom-and-event-propagation/",
       title: "A complete guide on shadow DOM and event propagation",
-      thumbnail: "pmdartus.png",
+      thumbnail: "pmdartus.svg",
       quote:
         "Shadow DOM directly influences how events propagate through the DOM.",
     },
