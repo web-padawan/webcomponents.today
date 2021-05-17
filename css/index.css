@@ -198,8 +198,9 @@ body {
 }
 
 .thumbnail {
-  width: 80px;
-  margin-bottom: 16px;
+  display: block;
+  width: 76px;
+  margin-bottom: 24px;
   border-radius: 8px;
   border: solid 1px #cbcbcd;
 }
