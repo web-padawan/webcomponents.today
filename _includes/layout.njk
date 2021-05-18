@@ -1,47 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
-    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <meta name="description" content="{{ renderData.description or description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
   </head>
   <body>
-    <div class="navbar">
+    <header class="header">
       <div class="container">
-        <div class="navbar__inner">
-          <a class="navbar__link" href="/">
-            <img class="navbar__logo" src="/img/webcomponents.png" alt="logo">
-            <h1 class="navbar__title">{{ metadata.title }}</h1>
+        <div class="header__inner">
+          <a class="header__link" href="/">
+            <img class="header__logo" src="/img/webcomponents.png" alt="logo">
+            <h1 class="header__title">{{ metadata.title }}</h1>
           </a>
+          <div class="header__copy">
+            Curated by <a class="header__author" href="https://twitter.com/serhiikulykov" target="_blank">@serhiikulykov</a>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
 
     <div class="content">
       <div class="container">
         <div class="content__wrapper">
-          <div class="sidebar">
+          <aside class="sidebar">
             <div class="sidebar__wrapper">
               <h3 class="sidebar__title">Categories</h3>
-              {% set navPages = collections.all | eleventyNavigation %}
+              {%- set navPages = collections.all | eleventyNavigation %}
               <ul class="nav">
               {%- for entry in navPages %}
                 <li class="nav__item">
-                  <a class="nav__link {% if entry.url == page.url %} nav__link--active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  <a class="nav__link{% if entry.url == page.url %} nav__link--active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
                 </li>
               {%- endfor %}
               </ul>
             </div>
-          </div>
+          </aside>
           <main class="main">
-
           {%- if header %}
             <h2 class="main__title">{{ header }}</h2>
             <p class="main__description">{{ description }}</p>
           {%- endif %}
-
             <div class="main__grid">
             {%- for item in items %}
               <a href="{{ item.url }}" class="item" target="_blank">

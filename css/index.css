@@ -35,8 +35,8 @@ body {
   text-align: left;
 }
 
-/* navbar */
-.navbar {
+/* header */
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,28 +44,45 @@ body {
   background-color: #fff;
 }
 
-.navbar__link {
+.header__link {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-.navbar__logo {
+.header__logo {
   display: block;
   width: 50px;
 }
 
-.navbar__inner {
+.header__inner {
   display: flex;
 }
 
-.navbar__title {
+.header__title {
   width: 200px;
   margin: 0 0 0 16px;
   color: #0e1724;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.2;
+}
+
+.header__copy {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  font-size: 1rem;
+}
+
+.header__author {
+  margin-left: 4px;
+  color: #0e1724;
+  text-decoration: none;
+}
+
+.header__author:hover {
+  text-decoration: underline;
 }
 
 /* content */
@@ -88,12 +105,6 @@ body {
   width: 260px;
   margin-right: 64px;
   flex: 0 0 auto;
-}
-
-.sidebar__wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .sidebar__title {
@@ -224,15 +235,13 @@ body {
 }
 
 @media screen and (max-width: 1140px) {
-  .navbar {
+  .header {
     padding-right: 24px;
     padding-left: 24px;
   }
 
   .content {
-    padding-top: 20px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 20px 0;
   }
 
   .content__wrapper {
@@ -247,12 +256,6 @@ body {
     padding-bottom: 20px;
     padding-left: 24px;
     border-bottom: 1px solid #dbdde6;
-  }
-
-  .sidebar__wrapper {
-    overflow: hidden;
-    height: auto;
-    align-items: stretch;
   }
 
   .sidebar__title {
@@ -278,16 +281,21 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .header__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__copy {
+    margin: 16px 0 0;
+  }
+
   .main__grid {
     grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 479px) {
-  .navbar__inner {
-    justify-content: center;
-  }
-
   .sidebar {
     margin-bottom: 20px;
     padding-right: 20px;
@@ -307,6 +315,7 @@ body {
   }
 
   .main__grid {
+    margin-bottom: 0;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
