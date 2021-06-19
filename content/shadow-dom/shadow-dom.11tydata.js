@@ -1,15 +1,13 @@
 module.exports = {
   url: "shadow-dom",
   header: "Shadow DOM",
-  description:
-    "Shadow DOM provides a standards based way of DOM encapsulation and composition.",
+  description: "Shadow DOM provides a standards based way of DOM encapsulation and composition.",
   items: [
     {
       url: "https://bitsofco.de/what-is-the-shadow-dom/",
       title: "What is the Shadow DOM?",
       thumbnail: "bitsofcode.png",
-      quote:
-        "This article explains what, exactly, the shadow DOM is and how it differs from the original DOM.",
+      quote: "This article explains what, exactly, the shadow DOM is and how it differs from the original DOM.",
     },
     {
       url: "https://developers.google.com/web/fundamentals/web-components/shadowdom",
@@ -29,22 +27,19 @@ module.exports = {
       url: "https://github.com/praveenpuglia/shadow-dom-in-depth",
       title: "Shadow DOM in depth",
       thumbnail: "github.svg",
-      quote:
-        "Everything you need to know about Shadow DOM.",
+      quote: "Everything you need to know about Shadow DOM.",
     },
     {
       url: "https://javascript.info/shadow-dom",
       title: "Shadow DOM",
       thumbnail: "javascript-info.png",
-      quote:
-        "Shadow DOM serves for encapsulation. It allows a component to have its very own “shadow” DOM tree.",
+      quote: "Shadow DOM serves for encapsulation. It allows a component to have its very own “shadow” DOM tree.",
     },
     {
       url: "https://javascript.info/slots-composition",
       title: "Shadow DOM slots, composition",
       thumbnail: "javascript-info.png",
-      quote:
-        "Shadow DOM supports <slot> elements, that are automatically filled by the content from light DOM.",
+      quote: "Shadow DOM supports <slot> elements, that are automatically filled by the content from light DOM.",
     },
     {
       url: "https://javascript.info/shadow-dom-style",
@@ -64,8 +59,7 @@ module.exports = {
       url: "https://pm.dartus.fr/blog/a-complete-guide-on-shadow-dom-and-event-propagation/",
       title: "A complete guide on shadow DOM and event propagation",
       thumbnail: "pmdartus.svg",
-      quote:
-        "Shadow DOM directly influences how events propagate through the DOM.",
+      quote: "Shadow DOM directly influences how events propagate through the DOM.",
     },
     {
       url: "https://staleelement.medium.com/anatomy-behind-the-shadow-dom-chapter-1-9af0dee69ee4",
@@ -78,15 +72,13 @@ module.exports = {
       url: "https://staleelement.medium.com/w3c-webdriver-conquering-automation-of-shadow-dom-chapter-2-d92c7fe9e74c",
       title: "W3C Webdriver conquering automation of Shadow DOM",
       thumbnail: "medium.svg",
-      quote:
-        "Overview of the Shadow DOM tree and its interaction with the W3C Webdriver.",
+      quote: "Overview of the Shadow DOM tree and its interaction with the W3C Webdriver.",
     },
     {
       url: "https://staleelement.medium.com/native-automation-support-for-shadow-dom-with-webdriverio-and-cypress-chapter-3-26249a589f5e",
       title: "Native Automation support for Shadow DOM — with WebDriverIO and Cypress",
       thumbnail: "medium.svg",
-      quote:
-        "Conquer the Shadow DOM by using few open-source testing frameworks.",
+      quote: "Conquer the Shadow DOM by using few open-source testing frameworks.",
     },
   ],
 };

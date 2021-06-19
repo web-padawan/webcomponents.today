@@ -9,11 +9,22 @@
   "license": "MIT",
   "scripts": {
     "build": "eleventy",
+    "lint": "npm-run-all --parallel lint:*",
+    "lint:css": "stylelint css",
+    "lint:js": "eslint .",
     "watch": "eleventy --watch",
     "start": "eleventy --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-navigation": "^0.2.0"
+    "@11ty/eleventy-navigation": "^0.2.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^5.0.0"
   }
 }

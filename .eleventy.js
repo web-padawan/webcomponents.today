@@ -2,8 +2,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function (config) {
   config.setDataDeepMerge(true);
-  config.addPassthroughCopy('css');
-  config.addPassthroughCopy('img');
+  config.addPassthroughCopy("css");
+  config.addPassthroughCopy("img");
   config.addPlugin(eleventyNavigationPlugin);
 
   // https://www.11ty.io/docs/config/#configuration-options

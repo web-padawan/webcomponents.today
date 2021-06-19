@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 
 *,
@@ -8,17 +10,10 @@ html {
   box-sizing: inherit;
 }
 
-html {
-  line-height: 1.15;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
   line-height: 24px;
