@@ -4,9 +4,9 @@ module.exports = {
   description: "Custom Elements provide a way for authors to build their own fully-featured DOM elements.",
   items: [
     {
-      url: "https://developers.google.com/web/fundamentals/web-components/customelements",
+      url: "https://web.dev/custom-elements-v1/",
       title: "Custom Elements v1: Reusable Web Components",
-      thumbnail: "fundamentals.png",
+      thumbnail: "webdev.png",
       quote: "With Custom Elements, web developers can create new HTML tags.",
     },
     {

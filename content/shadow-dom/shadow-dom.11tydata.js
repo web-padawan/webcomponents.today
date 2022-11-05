@@ -10,9 +10,9 @@ module.exports = {
       quote: "This article explains what, exactly, the shadow DOM is and how it differs from the original DOM.",
     },
     {
-      url: "https://developers.google.com/web/fundamentals/web-components/shadowdom",
+      url: "https://web.dev/shadowdom-v1/",
       title: "Shadow DOM v1: Self-Contained Web Components",
-      thumbnail: "fundamentals.png",
+      thumbnail: "webdev.png",
       quote:
         "Shadow DOM removes the brittleness of building web apps caused by the global nature of HTML, CSS, and JS.",
     },

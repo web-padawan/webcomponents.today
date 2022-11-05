@@ -11,9 +11,9 @@ module.exports = {
         "An overview of the key things that you should take into account when you start building a new web component.",
     },
     {
-      url: "https://developers.google.com/web/fundamentals/web-components/best-practices",
+      url: "https://web.dev/custom-elements-best-practices/",
       title: "Custom Element Best Practices",
-      thumbnail: "fundamentals.png",
+      thumbnail: "webdev.png",
       quote: "A checklist that breaks down all the things we think it takes to be a well behaved custom element.",
     },
     {
