@@ -4,6 +4,19 @@ module.exports = {
   description: "Step by step tutorials that help to learn how to build Web Components through practical examples.",
   items: [
     {
+      url: "https://css-tricks.com/creating-a-custom-element-from-scratch/",
+      title: "Creating a Custom Element from Scratch",
+      thumbnail: "css-tricks.svg",
+      quote:
+        "This article describes how to create a custom modal dialog from the ground up using a <template> element.",
+    },
+    {
+      url: "https://css-tricks.com/creating-custom-form-controls-with-elementinternals/",
+      title: "Creating Custom Form Controls with ElementInternals",
+      thumbnail: "css-tricks.svg",
+      quote: "A guide on how to create a custom form control with constraint validation.",
+    },
+    {
       url: "https://codelabs.developers.google.com/codelabs/the-lit-path#0",
       title: "From Web Component to Lit Element",
       thumbnail: "fundamentals.png",
@@ -45,12 +58,6 @@ module.exports = {
       title: "lit-html & lit-element: intermediate",
       thumbnail: "open-wc.png",
       quote: "This codelab is a followup from the lit-html & lit-element basics codelab.",
-    },
-    {
-      url: "https://kiosk-dot-codelabs-site.appspot.com/codelabs/image-styling-web-components/index.html#0",
-      title: "Image Styling with Web Components",
-      thumbnail: "codelabs.png",
-      quote: "In this codelab, you will learn how to create a vanilla web component for styling images.",
     },
   ],
 };
