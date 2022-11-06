@@ -1,8 +1,20 @@
 module.exports = {
   url: "styling",
   header: "Styling",
-  description: "Overview of various approaches to styling web components with and without Shadow DOM.",
+  description: "Overview of various aspects related to styling web components with and without Shadow DOM.",
   items: [
+    {
+      url: "https://nolanlawson.com/2021/08/15/does-shadow-dom-improve-style-performance/",
+      title: "Does shadow DOM improve style performance?",
+      thumbnail: "nolan-lawson.png",
+      quote: "Research on how style encapsulation can improve rendering performance.",
+    },
+    {
+      url: "https://every-layout.dev/blog/eschewing-shadow-dom/",
+      title: "Eschewing Shadow DOM",
+      thumbnail: "every-layout.png",
+      quote: "Shadow DOM has a very opinionated way of preventing styles being applied from the parent document.",
+    },
     {
       url: "https://web.dev/custom-properties-web-components/",
       title: "How Nordhealth uses Custom Properties in Web Components",
@@ -14,6 +26,12 @@ module.exports = {
       title: "Options for styling web components",
       thumbnail: "nolan-lawson.png",
       quote: "Research on the different ways that a standalone web component can expose a styling API.",
+    },
+    {
+      url: "https://nolanlawson.com/2022/06/22/style-scoping-versus-shadow-dom-which-is-fastest/",
+      title: "Style scoping versus shadow DOM: which is fastest?",
+      thumbnail: "nolan-lawson.png",
+      quote: "Shadow DOM comes out as the most consistently performant scoping option.",
     },
     {
       url: "https://css-tricks.com/styling-a-web-component/",

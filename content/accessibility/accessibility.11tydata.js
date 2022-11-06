@@ -41,5 +41,18 @@ module.exports = {
       thumbnail: "24a11y.png",
       quote: "Web components render as HTML, and either that HTML works or it doesn’t.",
     },
+    {
+      url: "https://nolanlawson.com/2021/02/13/managing-focus-in-the-shadow-dom/",
+      title: "Managing focus in the shadow DOM",
+      thumbnail: "nolan-lawson.png",
+      quote:
+        "Managing focus in the DOM has never been particularly easy, and shadow DOM just makes things that much trickier.",
+    },
+    {
+      url: "https://nolanlawson.com/2022/06/14/dialogs-and-shadow-dom-can-we-make-it-accessible/",
+      title: "Dialogs and shadow DOM: can we make it accessible?",
+      thumbnail: "nolan-lawson.png",
+      quote: "A look at getting native dialogs to play nicely with shadow DOM.",
+    },
   ],
 };
