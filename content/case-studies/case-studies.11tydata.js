@@ -10,6 +10,20 @@ module.exports = {
       quote: "This has been a really fun project to work on, forcing us to tackle a lot of interesting challenges.",
     },
     {
+      url: "https://www.mux.com/blog/slow-is-stable-stable-is-fast-building-mux-player-on-the-slow-platform-of-web-components",
+      title: "Building Mux Player on the “slow” platform of web components",
+      thumbnail: "mux.png",
+      quote:
+        "We can write code with confidence today, knowing it’s going to work across web frameworks for a very long time.",
+    },
+    {
+      url: "https://www.infoq.com/news/2021/05/github-web-components/",
+      title: "GitHub's Journey with Web Standards and Web Components",
+      thumbnail: "infoq.png",
+      quote:
+        "InfoQ has talked with GitHub application engineer Kristján Oddsson to learn about their experience with web components.",
+    },
+    {
       url: "https://medium.com/8451/how-we-chose-to-build-our-design-system-using-stenciljs-web-components-4878c36743c5",
       title: "How we chose to build our Design System using StencilJS Web Components",
       thumbnail: "medium.svg",

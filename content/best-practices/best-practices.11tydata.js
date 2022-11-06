@@ -56,5 +56,11 @@ module.exports = {
       quote:
         "A checklist for web components that aspire to be as flexible, reliable, and useful as the standard HTML elements.",
     },
+    {
+      url: "https://cianfrani.dev/posts/web-component-best-practices/",
+      title: "Web Component Best Practices",
+      thumbnail: "cianfrani.png",
+      quote: "Web Components are not a panacea. They require an entirely new discipline and frame of thinking.",
+    },
   ],
 };
