@@ -16,6 +16,13 @@ module.exports = {
       quote: "Shadow DOM has a very opinionated way of preventing styles being applied from the parent document.",
     },
     {
+      url: "https://www.abeautifulsite.net/posts/flash-of-undefined-custom-elements/",
+      title: "Flash of Undefined Custom Elements (FOUCE)",
+      thumbnail: "cory-laviska.png",
+      quote:
+        "Web components are defined and registered with JavaScript, which might cause a brief flash of unstyled HTML.",
+    },
+    {
       url: "https://web.dev/custom-properties-web-components/",
       title: "How Nordhealth uses Custom Properties in Web Components",
       thumbnail: "webdev.png",
@@ -38,12 +45,6 @@ module.exports = {
       title: "Styling a Web Component",
       thumbnail: "css-tricks.svg",
       quote: "Using a web component doesn’t mean the styles of it are entirely isolated.",
-    },
-    {
-      url: "https://css-tricks.com/styling-in-the-shadow-dom-with-css-shadow-parts/",
-      title: "Styling in the Shadow DOM With CSS Shadow Parts",
-      thumbnail: "css-tricks.svg",
-      quote: "Exposing parts of a web component provides flexibility in how it can be used.",
     },
     {
       url: "https://css-tricks.com/thinking-through-styling-options-for-web-components/",
