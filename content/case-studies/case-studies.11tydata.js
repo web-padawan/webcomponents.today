@@ -4,6 +4,13 @@ module.exports = {
   description: "Developers from different engineering teams share their experiences of using Web Components.",
   items: [
     {
+      url: "https://medium.com/adeo-tech/adeo-design-system-building-a-web-component-library-with-svelte-and-rollup-72d65de50163",
+      title: "ADEO Design System: Building a Web Component library with Svelte",
+      thumbnail: "medium.svg",
+      quote:
+        "In our case, we felt like we were the early adopters and few resources related to our stack were available.",
+    },
+    {
       url: "https://dev.to/thatjoemoore/bringing-order-to-web-design-chaos--3fhb",
       title: "Bringing Order to Web Design Chaos with Web Components",
       thumbnail: "devto.png",
@@ -73,6 +80,13 @@ module.exports = {
       title: "Using web components to encapsulate CSS and resolve design system conflicts",
       thumbnail: "gitlab.svg",
       quote: "We used the shadow DOM to encapsulate CSS. Templates and slots allowed us to use existing HTML.",
+    },
+    {
+      url: "https://www.infoq.com/news/2020/03/web-components-salesforce-lwc/",
+      title: "Web Components at Scale at Salesforce: Challenges Encountered, Lessons Learnt",
+      thumbnail: "infoq.png",
+      quote:
+        "Albeit with missing pieces, the Web Components standard was instrumental to achieve Salesforce’s interoperability.",
     },
     {
       url: "https://web.dev/how-we-build-webdev-and-use-web-components/",

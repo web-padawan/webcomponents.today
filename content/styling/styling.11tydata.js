@@ -4,6 +4,12 @@ module.exports = {
   description: "Overview of various aspects related to styling web components with and without Shadow DOM.",
   items: [
     {
+      url: "https://web.dev/constructable-stylesheets/",
+      title: "Constructable Stylesheets",
+      thumbnail: "webdev.png",
+      quote: "Constructable Stylesheets make it possible to apply shared CSS styles to multiple Shadow Roots easily.",
+    },
+    {
       url: "https://nolanlawson.com/2021/08/15/does-shadow-dom-improve-style-performance/",
       title: "Does shadow DOM improve style performance?",
       thumbnail: "nolan-lawson.png",
@@ -45,6 +51,12 @@ module.exports = {
       title: "Styling a Web Component",
       thumbnail: "css-tricks.svg",
       quote: "Using a web component doesn’t mean the styles of it are entirely isolated.",
+    },
+    {
+      url: "https://medium.com/patternfly-elements/patternfly-elements-theming-hooks-using-css-variables-in-a-component-4e8c481f86b6",
+      title: "Theming hooks: Using CSS variables to trick-out your web components",
+      thumbnail: "medium.svg",
+      quote: "PatternFly Elements web components have a standard way of stacking variables and fallback values.",
     },
     {
       url: "https://css-tricks.com/thinking-through-styling-options-for-web-components/",
