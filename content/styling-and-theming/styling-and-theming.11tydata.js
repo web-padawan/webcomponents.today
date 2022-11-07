@@ -1,6 +1,6 @@
 module.exports = {
-  url: "styling",
-  header: "Styling",
+  url: "styling-and-theming",
+  header: "Styling and Theming",
   description: "Overview of various aspects related to styling web components with and without Shadow DOM.",
   items: [
     {
@@ -8,6 +8,18 @@ module.exports = {
       title: "Constructable Stylesheets",
       thumbnail: "webdev.png",
       quote: "Constructable Stylesheets make it possible to apply shared CSS styles to multiple Shadow Roots easily.",
+    },
+    {
+      url: "https://medium.com/patternfly-elements/patternfly-elements-theming-hooks-css-broadcast-variables-4c8d40cbcab7",
+      title: "Contextually-aware web components",
+      thumbnail: "medium.svg",
+      quote: "Using CSS custom properties as “broadcast” variables to inform about changing background colors.",
+    },
+    {
+      url: "https://www.colorglare.com/css-resets-and-global-styles-in-web-components-c71fcea86dbd",
+      title: "CSS resets and global styles in web components",
+      thumbnail: "medium.svg",
+      quote: "Importing CSS in web components to make them work in any environment.",
     },
     {
       url: "https://nolanlawson.com/2021/08/15/does-shadow-dom-improve-style-performance/",
