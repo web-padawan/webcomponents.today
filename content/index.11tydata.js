@@ -3,6 +3,7 @@ const bestPractices = require("./best-practices/best-practices.11tydata.js");
 const caseStudies = require("./case-studies/case-studies.11tydata.js");
 const codelabs = require("./codelabs/codelabs.11tydata.js");
 const elements = require("./custom-elements/custom-elements.11tydata.js");
+const opinions = require("./opinions/opinions.11tydata.js");
 const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
 const shadowParts = require("./shadow-parts/shadow-parts.11tydata.js");
 const stylingAndTheming = require("./styling-and-theming/styling-and-theming.11tydata.js");
@@ -15,6 +16,7 @@ module.exports = {
     ...caseStudies.items,
     ...codelabs.items,
     ...elements.items,
+    ...opinions.items,
     ...shadowDOM.items,
     ...shadowParts.items,
     ...stylingAndTheming.items,

@@ -53,12 +53,5 @@ module.exports = {
       quote:
         "Now that Vue 3.2 has been released, creating native custom elements from Vue components is easier than ever.",
     },
-    {
-      url: "https://nolanlawson.com/2021/08/01/why-its-okay-for-web-components-to-use-frameworks/",
-      title: "Why it’s okay for web components to use frameworks",
-      thumbnail: "nolan-lawson.png",
-      quote:
-        "Should standalone web components be written in vanilla JavaScript? Or is it okay if they use their own framework?",
-    },
   ],
 };
