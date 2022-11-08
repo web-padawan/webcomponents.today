@@ -16,6 +16,25 @@ module.exports = {
       quote: "Web components particularly excel as leaf components: the last thing to be rendered in a component tree.",
     },
     {
+      url: "https://nuclia.com/blog/how-to-build-lazy-loaded-custom-elements-with-svelte/",
+      title: "How to build lazy loaded custom elements with Svelte",
+      thumbnail: "nuclia.png",
+      quote: "Compiling the Svelte component as a custom element and setting up lazy loading for better performance.",
+    },
+    {
+      url: "https://nuclia.com/front-end/how-to-run-svelte-custom-elements-in-dev-mode/",
+      title: "How to run Svelte custom elements in dev mode",
+      thumbnail: "nuclia.png",
+      quote: "About the Hot Module Replacement (HMR) issue related to using custom elements, and how to prevent it.",
+    },
+    {
+      url: "https://www.colorglare.com/svelte-components-as-web-components-b400d1253504",
+      title: "Svelte Components as Web Components",
+      thumbnail: "medium.svg",
+      quote:
+        "How to write an app in Svelte Kit, while being able to export and use individual components on other websites.",
+    },
+    {
       url: "https://css-tricks.com/using-custom-elements-in-svelte/",
       title: "Using Custom Elements in Svelte",
       thumbnail: "css-tricks.svg",

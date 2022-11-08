@@ -56,13 +56,13 @@ module.exports = {
     },
     {
       url: "https://open-wc.org/codelabs/basics/lit-html.html#0",
-      title: "lit-html & lit-element: basics",
+      title: "Lit: basics",
       thumbnail: "open-wc.png",
       quote: "In this codelab, you will learn the basics of building web components using lit-html and lit-element.",
     },
     {
       url: "https://open-wc.org/codelabs/intermediate/lit-html.html#0",
-      title: "lit-html & lit-element: intermediate",
+      title: "Lit: intermediate",
       thumbnail: "open-wc.png",
       quote: "This codelab is a followup from the lit-html & lit-element basics codelab.",
     },
