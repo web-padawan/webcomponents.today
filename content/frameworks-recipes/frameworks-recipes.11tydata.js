@@ -1,6 +1,6 @@
 module.exports = {
-  url: "usage-in-frameworks",
-  header: "Usage in Frameworks",
+  url: "frameworks-recipes",
+  header: "Frameworks Recipes",
   description: "Techniques related to using web components together with JavaScript frameworks.",
   items: [
     {
