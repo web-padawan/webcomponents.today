@@ -166,7 +166,7 @@ module.exports = {
       quote: "Open source design system to create the perfect digital experience.",
     },
     {
-      url: "https://ix.siemens.io",
+      url: "https://opensource.adobe.com/spectrum-web-components/",
       title: "Spectrum Web Components",
       thumbnail: "adobe.png",
       quote: "An implementation of Spectrum, Adobe’s design system.",
