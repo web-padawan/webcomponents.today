@@ -9,6 +9,7 @@ const opinions = require("./opinions/opinions.11tydata.js");
 const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
 const shadowParts = require("./shadow-parts/shadow-parts.11tydata.js");
 const stylingAndTheming = require("./styling-and-theming/styling-and-theming.11tydata.js");
+const testAutomation = require("./test-automation/test-automation.11tydata.js");
 
 module.exports = {
   items: [
@@ -23,6 +24,7 @@ module.exports = {
     ...shadowDOM.items,
     ...shadowParts.items,
     ...stylingAndTheming.items,
+    ...testAutomation.items,
   ].sort((a, b) => {
     const textA = a.title.toUpperCase();
     const textB = b.title.toUpperCase();

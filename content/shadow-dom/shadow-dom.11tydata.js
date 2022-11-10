@@ -24,12 +24,6 @@ module.exports = {
         "When creating a custom element with a shadow root, you're getting a subtree that is separate from the document.",
     },
     {
-      url: "https://staleelement.medium.com/native-automation-support-for-shadow-dom-with-webdriverio-and-cypress-chapter-3-26249a589f5e",
-      title: "Native Automation support for Shadow DOM — with WebDriverIO and Cypress",
-      thumbnail: "medium.svg",
-      quote: "Conquer the Shadow DOM by using few open-source testing frameworks.",
-    },
-    {
       url: "https://javascript.info/shadow-dom",
       title: "Shadow DOM",
       thumbnail: "javascript-info.png",
@@ -67,12 +61,6 @@ module.exports = {
       thumbnail: "mdn.png",
       quote:
         "Shadow DOM API is a key part of web components, providing a way to attach a hidden separated DOM to an element.",
-    },
-    {
-      url: "https://staleelement.medium.com/w3c-webdriver-conquering-automation-of-shadow-dom-chapter-2-d92c7fe9e74c",
-      title: "W3C Webdriver conquering automation of Shadow DOM",
-      thumbnail: "medium.svg",
-      quote: "Overview of the Shadow DOM tree and its interaction with the W3C Webdriver.",
     },
     {
       url: "https://bitsofco.de/what-is-the-shadow-dom/",
