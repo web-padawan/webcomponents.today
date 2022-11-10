@@ -53,6 +53,13 @@ module.exports = {
       quote: "Research on the different ways that a standalone web component can expose a styling API.",
     },
     {
+      url: "https://javascript.info/shadow-dom-style",
+      title: "Shadow DOM styling",
+      thumbnail: "javascript-info.png",
+      quote:
+        "As a general rule, local styles work only inside the shadow tree, and document styles work outside of it.",
+    },
+    {
       url: "https://nolanlawson.com/2022/06/22/style-scoping-versus-shadow-dom-which-is-fastest/",
       title: "Style scoping versus shadow DOM: which is fastest?",
       thumbnail: "nolan-lawson.png",
@@ -63,6 +70,12 @@ module.exports = {
       title: "Styling a Web Component",
       thumbnail: "css-tricks.svg",
       quote: "Using a web component doesn’t mean the styles of it are entirely isolated.",
+    },
+    {
+      url: "https://web-components-cg.netlify.app/articles/using/styling-shadow/",
+      title: "Styling Components Using Shadow DOM",
+      thumbnail: "wc-cg.png",
+      quote: "Different ways of styling components which are using shadow DOM.",
     },
     {
       url: "https://medium.com/patternfly-elements/patternfly-elements-theming-hooks-using-css-variables-in-a-component-4e8c481f86b6",

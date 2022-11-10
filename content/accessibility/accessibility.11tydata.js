@@ -30,6 +30,13 @@ module.exports = {
         "Managing focus in the DOM has never been particularly easy, and shadow DOM just makes things that much trickier.",
     },
     {
+      url: "https://dev.to/westbrook/testing-accessibility-with-shadow-roots-55cm",
+      title: "Testing Accessibility with Shadow Roots",
+      thumbnail: "devto.png",
+      quote:
+        "Building accessible web components on the example of an input element pattern with a label and help text.",
+    },
+    {
       url: "https://robdodson.me/posts/the-future-of-accessibility-for-custom-elements/",
       title: "The future of accessibility for custom elements",
       thumbnail: "robdodson.png",
@@ -41,12 +48,6 @@ module.exports = {
       title: "The Guide to Accessible Web Components",
       thumbnail: "erikkroes.png",
       quote: "Building proper UI Web Components can be quite a task, especially if you want them to be accessible.",
-    },
-    {
-      url: "https://github.com/devongovett/wc-hooks",
-      title: "wc-hooks",
-      thumbnail: "github.svg",
-      quote: "An experiment to try to use React Aria hooks in vanilla web components by shimming the React Hooks API.",
     },
     {
       url: "https://www.24a11y.com/2019/web-components-and-the-aom/",
