@@ -178,10 +178,22 @@ module.exports = {
       quote: "Reusable UI elements implementing the SAP Fiori design language.",
     },
     {
+      url: "https://design.va.gov",
+      title: "VA.gov Design System",
+      thumbnail: "va-gov.png",
+      quote: "A system to help you write, design, and build digital services on VA.gov.",
+    },
+    {
       url: "https://vaadin.com/design-system",
       title: "Vaadin design system",
       thumbnail: "vaadin.png",
       quote: "Components, themes, design assets and tooling for building consistent UIs.",
+    },
+    {
+      url: "https://vivid.vonage.com",
+      title: "Vivid",
+      thumbnail: "vivid.svg",
+      quote: "Vonage’s design system to help product teams work more efficiently.",
     },
   ],
 };
