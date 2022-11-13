@@ -64,6 +64,12 @@ module.exports = {
       quote: "EDS ensures a consistent look and feel across GE Healthcare applications.",
     },
     {
+      url: "https://ui.refinitiv.com",
+      title: "Element Framework",
+      thumbnail: "refinitiv.png",
+      quote: "Web components and tooling aligned with Refinitiv's design system.",
+    },
+    {
       url: "https://www.fast.design",
       title: "FAST",
       thumbnail: "fast.png",
@@ -98,6 +104,12 @@ module.exports = {
       title: "Ignite UI Web Components",
       thumbnail: "ignite.png",
       quote: "Components based on the Indigo.Design design system by Infragistics.",
+    },
+    {
+      url: "https://github.com/infor-design/enterprise-wc",
+      title: "Infor Enterprise Components",
+      thumbnail: "infor.png",
+      quote: "Enterprise web component library based on the Infor Design System.",
     },
     {
       url: "https://developer.salesforce.com/docs/component-library/documentation/en/lwc",
