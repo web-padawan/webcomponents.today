@@ -112,6 +112,12 @@ module.exports = {
       quote: "UI component library based on the Liquid Design System.",
     },
     {
+      url: "https://github.com/lyne-design-system/lyne-components",
+      title: "Lyne Components",
+      thumbnail: "lyne.png",
+      quote: "Experimental base components for Lyne Design System.",
+    },
+    {
       url: "https://github.com/material-components/material-web",
       title: "Material Web",
       thumbnail: "material.png",
@@ -134,6 +140,12 @@ module.exports = {
       title: "Nucleus",
       thumbnail: "nucleus.png",
       quote: "British Gas design system to build a more coherent web experience.",
+    },
+    {
+      url: "https://patternflyelements.org",
+      title: "PatternFly Elements",
+      thumbnail: "patternfly.svg",
+      quote: "A set of web components based on PatternFly design.",
     },
     {
       url: "https://pharos.jstor.org",
