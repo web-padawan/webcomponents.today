@@ -148,6 +148,12 @@ module.exports = {
       quote: "Re-usable web components dedicated to data annotation tasks.",
     },
     {
+      url: "https://quark-design.hellobike.com",
+      title: "Quark Design",
+      thumbnail: "quark.png",
+      quote: "Cross-framework UI component library based on web components.",
+    },
+    {
       url: "https://www.htmlelements.com/demos/",
       title: "Smart HTML Elements",
       thumbnail: "smart-ui.png",
@@ -170,6 +176,12 @@ module.exports = {
       title: "Umbraco UI Library",
       thumbnail: "umbraco-ui.svg",
       quote: "Collection of user interface components for Umbraco CMS and friends.",
+    },
+    {
+      url: "https://bendera.github.io/vscode-webview-elements/",
+      title: "VSCode Webview Elements",
+      thumbnail: "vscode-elements.svg",
+      quote: "Web component library for developing Visual Studio Code extensions.",
     },
     {
       url: "https://wiredjs.com",
