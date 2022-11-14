@@ -34,6 +34,12 @@ module.exports = {
       quote: "Web Components had so much potential to empower HTML to do more, and make web development easier.",
     },
     {
+      url: "https://www.dannymoerkerke.com/blog/theres-no-need-to-hate-web-components",
+      title: "There’s No Need To Hate Web Components",
+      thumbnail: "danny-moerkerke.png",
+      quote: "Web Components are finally here and they’re ready. Embrace them or hate them, the choice is yours.",
+    },
+    {
       url: "https://space.matthewphillips.info/posts/where-web-components-went-wrong/",
       title: "Where Web Components Went Wrong (And How We Can Turn It Around)",
       thumbnail: "matthewp.png",
@@ -66,6 +72,12 @@ module.exports = {
       thumbnail: "viljamis.png",
       quote:
         "Web Components have made easier to build systems that can support a range of frameworks via a single code base.",
+    },
+    {
+      url: "https://www.hjorthhansen.dev/you-might-not-need-shadow-dom/",
+      title: "You might not need shadow DOM",
+      thumbnail: "hjorth-hansen.png",
+      quote: "Ultimately, shadow DOM is not a requirement in order to build Web Components.",
     },
   ],
 };
