@@ -22,6 +22,12 @@ module.exports = {
       quote: "Framework-free open source UI toolkit.",
     },
     {
+      url: "https://blueprintui.dev",
+      title: "Blueprint UI",
+      thumbnail: "blueprint-ui.svg",
+      quote: "Collection of web components for building UIs that work everywhere.",
+    },
+    {
       url: "https://github.com/BrightspaceUI/core",
       title: "Brightspace UI Core",
       thumbnail: "brightspace-ui.png",
@@ -50,6 +56,12 @@ module.exports = {
       title: "Elix",
       thumbnail: "component-kitchen.svg",
       quote: "High-quality web components for common user interface patterns.",
+    },
+    {
+      url: "https://esl-ui.com",
+      title: "Exadel Smart Library",
+      thumbnail: "exadel.png",
+      quote: "Lightweight and flexible UI component library based on web components.",
     },
     {
       url: "https://github.com/genexuslabs/web-controls-library",
