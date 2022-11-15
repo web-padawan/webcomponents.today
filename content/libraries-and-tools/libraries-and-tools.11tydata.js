@@ -34,6 +34,12 @@ module.exports = {
       quote: "A lightweight means to build performant, memory-efficient web components.",
     },
     {
+      url: "https://www.ficusjs.org",
+      title: "Ficus",
+      thumbnail: "ficus.png",
+      quote: "Lightweight libraries and tools for building modern web applications.",
+    },
+    {
       url: "https://hauntedhooks.netlify.app",
       title: "Haunted",
       thumbnail: "haunted.svg",
@@ -69,6 +75,12 @@ module.exports = {
       title: "Rocket",
       thumbnail: "rocket.svg",
       quote: "The modern web setup for static sites with a sprinkle of JavaScript.",
+    },
+    {
+      url: "https://github.com/solidjs/solid/tree/main/packages/solid-element",
+      title: "Solid Element",
+      thumbnail: "solid.png",
+      quote: "Web components wrapper for Solid with modular behaviors and composition.",
     },
     {
       url: "https://stenciljs.com",
