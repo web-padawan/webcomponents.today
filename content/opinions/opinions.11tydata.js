@@ -34,6 +34,18 @@ module.exports = {
       quote: "Web Components had so much potential to empower HTML to do more, and make web development easier.",
     },
     {
+      url: "https://www.thinktecture.com/web-components/web-components-flaws/",
+      title: "The Flaws Of Web Components (And Possible Solutions)",
+      thumbnail: "thinktecture.png",
+      quote: "Problems and unsupported use cases related to Web Components.",
+    },
+    {
+      url: "https://www.thinktecture.com/web-components/web-components-perks/",
+      title: "The Perks Of Web Components",
+      thumbnail: "thinktecture.png",
+      quote: "Developer experience and business benefits of Web Components.",
+    },
+    {
       url: "https://www.dannymoerkerke.com/blog/theres-no-need-to-hate-web-components",
       title: "There’s No Need To Hate Web Components",
       thumbnail: "danny-moerkerke.png",
