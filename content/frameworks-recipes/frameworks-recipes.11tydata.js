@@ -10,6 +10,12 @@ module.exports = {
       quote: "Integrating Web Components to a React application with a (nearly) seamless developer experience.",
     },
     {
+      url: "https://www.angulararchitects.io/aktuelles/angular-elements-web-components-with-standalone-components/",
+      title: "Angular Elements: Web Components with Standalone Components",
+      thumbnail: "angular-architects.png",
+      quote: "Exposing a standalone component as web component using Angular 14.2.",
+    },
+    {
       url: "https://css-tricks.com/building-interoperable-web-components-react/",
       title: "Building Interoperable Web Components That Even Work With React",
       thumbnail: "css-tricks.svg",
@@ -26,6 +32,12 @@ module.exports = {
       title: "How to run Svelte custom elements in dev mode",
       thumbnail: "nuclia.png",
       quote: "About the Hot Module Replacement (HMR) issue related to using custom elements, and how to prevent it.",
+    },
+    {
+      url: "https://www.thinktecture.com/web-components/web-component-forms-integration-with-lit-and-angular/",
+      title: "Master Web Component Forms Integration – with Lit and Angular",
+      thumbnail: "thinktecture.png",
+      quote: "About some pitfalls to consider when using web components in forms.",
     },
     {
       url: "https://www.colorglare.com/svelte-components-as-web-components-b400d1253504",
