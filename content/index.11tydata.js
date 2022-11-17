@@ -5,6 +5,7 @@ const codelabs = require("./codelabs/codelabs.11tydata.js");
 const componentLibraries = require("./component-libraries/component-libraries.11tydata.js");
 const elements = require("./custom-elements/custom-elements.11tydata.js");
 const designSystems = require("./design-systems/design-systems.11tydata.js");
+const formParticipation = require("./form-participation/form-participation.11tydata.js");
 const frameworksRecipes = require("./frameworks-recipes/frameworks-recipes.11tydata.js");
 const librariesAndTools = require("./libraries-and-tools/libraries-and-tools.11tydata.js");
 const opinions = require("./opinions/opinions.11tydata.js");
@@ -22,6 +23,7 @@ module.exports = {
     ...componentLibraries.items,
     ...elements.items,
     ...designSystems.items,
+    ...formParticipation.items,
     ...frameworksRecipes.items,
     ...librariesAndTools.items,
     ...opinions.items,

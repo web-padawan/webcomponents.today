@@ -23,12 +23,6 @@ module.exports = {
         "This article describes how to create a custom modal dialog from the ground up using a <template> element.",
     },
     {
-      url: "https://css-tricks.com/creating-custom-form-controls-with-elementinternals/",
-      title: "Creating Custom Form Controls with ElementInternals",
-      thumbnail: "css-tricks.svg",
-      quote: "A guide on how to create a custom form control with constraint validation.",
-    },
-    {
       url: "https://codelabs.developers.google.com/codelabs/the-lit-path#0",
       title: "From Web Component to Lit Element",
       thumbnail: "fundamentals.png",
