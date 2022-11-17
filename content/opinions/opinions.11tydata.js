@@ -28,6 +28,12 @@ module.exports = {
       quote: "Web components are part of the web. They are good for the web. We should be rooting for them.",
     },
     {
+      url: "https://www.falldowngoboone.com/blog/misadventures-in-web-components/",
+      title: "Misadventures in web components",
+      thumbnail: "fdgb.svg",
+      quote: "I had a ton of fun messing around with web components, and I learned a lot.",
+    },
+    {
       url: "https://lea.verou.me/2020/09/the-failed-promise-of-web-components/",
       title: "The failed promise of Web Components",
       thumbnail: "lea-verou.svg",
@@ -50,6 +56,12 @@ module.exports = {
       title: "There’s No Need To Hate Web Components",
       thumbnail: "danny-moerkerke.png",
       quote: "Web Components are finally here and they’re ready. Embrace them or hate them, the choice is yours.",
+    },
+    {
+      url: "https://blog.logrocket.com/what-happened-to-web-components/",
+      title: "What Happened to Web Components?",
+      thumbnail: "logrocket.png",
+      quote: "Web components have promised many awesome things. Why aren’t more developers using them?",
     },
     {
       url: "https://space.matthewphillips.info/posts/where-web-components-went-wrong/",
