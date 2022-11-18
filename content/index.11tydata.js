@@ -7,6 +7,7 @@ const elements = require("./custom-elements/custom-elements.11tydata.js");
 const designSystems = require("./design-systems/design-systems.11tydata.js");
 const formParticipation = require("./form-participation/form-participation.11tydata.js");
 const frameworksRecipes = require("./frameworks-recipes/frameworks-recipes.11tydata.js");
+const guidesAndTutorials = require("./guides-and-tutorials/guides-and-tutorials.11tydata.js");
 const librariesAndTools = require("./libraries-and-tools/libraries-and-tools.11tydata.js");
 const opinions = require("./opinions/opinions.11tydata.js");
 const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
@@ -25,6 +26,7 @@ module.exports = {
     ...designSystems.items,
     ...formParticipation.items,
     ...frameworksRecipes.items,
+    ...guidesAndTutorials.items,
     ...librariesAndTools.items,
     ...opinions.items,
     ...shadowDOM.items,

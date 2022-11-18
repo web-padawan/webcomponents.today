@@ -16,13 +16,6 @@ module.exports = {
       quote: "In this codelab, you will learn how to build a build a story component with lit-element and TypeScript.",
     },
     {
-      url: "https://css-tricks.com/creating-a-custom-element-from-scratch/",
-      title: "Creating a Custom Element from Scratch",
-      thumbnail: "css-tricks.svg",
-      quote:
-        "This article describes how to create a custom modal dialog from the ground up using a <template> element.",
-    },
-    {
       url: "https://codelabs.developers.google.com/codelabs/the-lit-path#0",
       title: "From Web Component to Lit Element",
       thumbnail: "fundamentals.png",
