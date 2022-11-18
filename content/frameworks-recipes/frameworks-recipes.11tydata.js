@@ -10,6 +10,12 @@ module.exports = {
       quote: "Integrating Web Components to a React application with a (nearly) seamless developer experience.",
     },
     {
+      url: "https://itnext.io/a-deep-analysis-into-isomorphic-autonomous-cross-framework-usage-microfrontends-364271dc5fa9",
+      title: "A deep analysis into isomorphic, autonomous cross-framework usage",
+      thumbnail: "medium.svg",
+      quote: "Overview of in-depth problems of the connection of Frameworks, their SSR and Web Components.",
+    },
+    {
       url: "https://www.angulararchitects.io/aktuelles/angular-elements-web-components-with-standalone-components/",
       title: "Angular Elements: Web Components with Standalone Components",
       thumbnail: "angular-architects.png",
@@ -38,6 +44,13 @@ module.exports = {
       title: "Master Web Component Forms Integration – with Lit and Angular",
       thumbnail: "thinktecture.png",
       quote: "About some pitfalls to consider when using web components in forms.",
+    },
+    {
+      url: "https://nuxt-custom-elements.grabarzundpartner.dev/",
+      title: "Nuxt Custom Elements",
+      thumbnail: "nuxt-ce.png",
+      quote:
+        "Export your existing project components as custom elements with shadow DOM for integration into external pages.",
     },
     {
       url: "https://www.colorglare.com/svelte-components-as-web-components-b400d1253504",
