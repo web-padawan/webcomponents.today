@@ -100,6 +100,12 @@ module.exports = {
       quote: "Set of web components for abstracting recurrent programming patterns.",
     },
     {
+      url: "https://public-ui.github.io",
+      title: "KoliBri",
+      thumbnail: "itzbund.svg",
+      quote: "Accessible web components for building web UIs of the federal administration.",
+    },
+    {
       url: "https://lion-web.netlify.app",
       title: "Lion",
       thumbnail: "lion.svg",
@@ -206,6 +212,12 @@ module.exports = {
       title: "Wokwi Elements",
       thumbnail: "wokwi.png",
       quote: "Web Components for Arduino and various Electronics and IoT Parts.",
+    },
+    {
+      url: "https://zooplus.github.io/zoo-web-components/",
+      title: "Zoo web components",
+      thumbnail: "zooplus.png",
+      quote: "Set of reusable web-components that implement Z+ shop style guide.",
     },
   ],
 };
