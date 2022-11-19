@@ -28,6 +28,19 @@ module.exports = {
       quote: "Web components particularly excel as leaf components: the last thing to be rendered in a component tree.",
     },
     {
+      url: "https://www.smashingmagazine.com/2019/09/frankenstein-migration-framework-agnostic-approach-part-1/",
+      title: "Frankenstein Migration: Framework-Agnostic Approach (Part 1)",
+      thumbnail: "smashing.svg",
+      quote:
+        "A new, framework-agnostic approach to the process of migration to pretty much any framework of your choice.",
+    },
+    {
+      url: "https://www.smashingmagazine.com/2019/09/frankenstein-migration-framework-agnostic-approach-part-2/",
+      title: "Frankenstein Migration: Framework-Agnostic Approach (Part 2)",
+      thumbnail: "smashing.svg",
+      quote: "Putting all the theory to the test by performing step-by-step migration of a simple to-do application.",
+    },
+    {
       url: "https://nuclia.com/blog/how-to-build-lazy-loaded-custom-elements-with-svelte/",
       title: "How to build lazy loaded custom elements with Svelte",
       thumbnail: "nuclia.png",
