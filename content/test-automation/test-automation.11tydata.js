@@ -28,10 +28,22 @@ module.exports = {
       quote: "Conquer the Shadow DOM by using few open-source testing frameworks.",
     },
     {
+      url: "https://open-wc.org/docs/testing/testing-package/",
+      title: "Open Web Components: Testing",
+      thumbnail: "open-wc.png",
+      quote: "Opinionated package that combines and configures testing libraries.",
+    },
+    {
       url: "https://reflect.run/articles/testing-shadow-dom-elements-in-selenium/",
       title: "Testing Shadow DOM elements in Selenium",
       thumbnail: "reflect.png",
       quote: "In Selenium 4, there is now a way to access Shadow DOM nodes.",
+    },
+    {
+      url: "https://alexbilson.dev/plants/technology/test-web-components-with-playwright/",
+      title: "Test Web Components with Playwright",
+      thumbnail: "alexbilson.png",
+      quote: "So you’ve created a native web component or two. How do you test them in popular browsers?",
     },
     {
       url: "https://staleelement.medium.com/w3c-webdriver-conquering-automation-of-shadow-dom-chapter-2-d92c7fe9e74c",
