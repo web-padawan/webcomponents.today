@@ -91,6 +91,12 @@ module.exports = {
         "Defining styles for a web component in a don’t-leak-out way, and less so a way to get global styles to leak in.",
     },
     {
+      url: "https://campzulu.hashnode.dev/using-tailwindcss-with-web-components-and-shadowdom-in-litelement",
+      title: "Using Tailwind CSS with web components and Shadow DOM in LitElement",
+      thumbnail: "campzulu.png",
+      quote: "With LitElement we found a good way to get the best of both worlds without having to disable ShadowDOM.",
+    },
+    {
       url: "https://css-tricks.com/web-component-pseudo-classes-and-pseudo-elements/",
       title: "Web Component Pseudo-Classes and Pseudo-Elements",
       thumbnail: "css-tricks.svg",
@@ -101,6 +107,12 @@ module.exports = {
       title: "Web Standards Meet User-Land: Using CSS-in-JS to Style Custom Elements",
       thumbnail: "css-tricks.svg",
       quote: "Using the shadow DOM is common when creating custom elements, but is not required.",
+    },
+    {
+      url: "https://lamplightdev.com/blog/2019/03/26/why-is-my-web-component-inheriting-styles/",
+      title: "Why is my Web Component inheriting styles?",
+      thumbnail: "lamplightdev.png",
+      quote: "Inheritable styles will be applied to both your Shadow and Light DOM.",
     },
   ],
 };
