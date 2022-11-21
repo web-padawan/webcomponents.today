@@ -1,0 +1,43 @@
+module.exports = {
+  url: "polyfills-and-shims",
+  header: "Polyfills and Shims",
+  description: "Scripts adding partial support for stable and experimental web components features.",
+  items: [
+    {
+      url: "https://github.com/calebdwilliams/construct-style-sheets",
+      title: "Constructible style sheets polyfill",
+      thumbnail: "github.svg",
+      quote: "A polyfill for the constructible style sheets / adopted style sheets spec.",
+    },
+    {
+      url: "https://github.com/ungap/custom-elements",
+      title: "Custom Elements Polyfill",
+      thumbnail: "github.svg",
+      quote: "Custom Elements polyfill including the ability to extend builtin elements.",
+    },
+    {
+      url: "https://github.com/calebdwilliams/element-internals-polyfill",
+      title: "Element Internals Polyfill",
+      thumbnail: "github.svg",
+      quote: "A polyfill for the ElementInternals interface (part of HTML standard).",
+    },
+    {
+      url: "https://github.com/guybedford/es-module-shims#css-modules",
+      title: "ES Module Shims",
+      thumbnail: "github.svg",
+      quote: "CSS Modules need to be manually enabled via the polyfillEnable init option.",
+    },
+    {
+      url: "https://modern-web.dev/docs/building/polyfills-loader/",
+      title: "Polyfills Loader",
+      thumbnail: "modern-web.svg",
+      quote: "Manage loading polyfills and/or serving different versions of your application based on browser support.",
+    },
+    {
+      url: "https://github.com/webcomponents/polyfills",
+      title: "Web Components Polyfills",
+      thumbnail: "github.svg",
+      quote: "A set of JavaScript libraries that implement Web Components APIs for browsers lacking built-in support.",
+    },
+  ],
+};
