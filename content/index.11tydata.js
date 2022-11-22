@@ -1,4 +1,5 @@
 const a11y = require("./accessibility/accessibility.11tydata.js");
+const basics = require("./basics/basics.11tydata.js");
 const bestPractices = require("./best-practices/best-practices.11tydata.js");
 const caseStudies = require("./case-studies/case-studies.11tydata.js");
 const codelabs = require("./codelabs/codelabs.11tydata.js");
@@ -20,6 +21,7 @@ const testAutomation = require("./test-automation/test-automation.11tydata.js");
 module.exports = {
   items: [
     ...a11y.items,
+    ...basics.items,
     ...bestPractices.items,
     ...caseStudies.items,
     ...codelabs.items,
