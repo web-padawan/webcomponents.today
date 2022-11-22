@@ -28,6 +28,12 @@ module.exports = {
       quote: "Web components particularly excel as leaf components: the last thing to be rendered in a component tree.",
     },
     {
+      url: "https://www.thinktecture.com/web-components/data-sharing-and-frameworks/",
+      title: "Data Sharing & Framework Integration",
+      thumbnail: "thinktecture.png",
+      quote: "How Web Components can share data, and which role frameworks play.",
+    },
+    {
       url: "https://www.smashingmagazine.com/2019/09/frankenstein-migration-framework-agnostic-approach-part-1/",
       title: "Frankenstein Migration: Framework-Agnostic Approach (Part 1)",
       thumbnail: "smashing.svg",
@@ -77,6 +83,12 @@ module.exports = {
       title: "Using Custom Elements in Svelte",
       thumbnail: "css-tricks.svg",
       quote: "Svelte fully supports custom elements. However, there are still a few quirks you need to watch out for.",
+    },
+    {
+      url: "https://sam-redmond.com/using-web-components-in-angular-d56a541ee2f1",
+      title: "Using Web Components in Angular",
+      thumbnail: "medium.svg",
+      quote: "Angular Elements is one of the most mature Web Components libraries.",
     },
     {
       url: "https://css-tricks.com/using-web-components-with-next-or-any-ssr-framework/",
