@@ -10,7 +10,7 @@ const formParticipation = require("./form-participation/form-participation.11tyd
 const frameworksRecipes = require("./frameworks-recipes/frameworks-recipes.11tydata.js");
 const guidesAndTutorials = require("./guides-and-tutorials/guides-and-tutorials.11tydata.js");
 const librariesAndTools = require("./libraries-and-tools/libraries-and-tools.11tydata.js");
-const opinions = require("./opinions/opinions.11tydata.js");
+const opinionsAndTakes = require("./opinions-and-takes/opinions-and-takes.11tydata.js");
 const polyfillsAndShims = require("./polyfills-and-shims/polyfills-and-shims.11tydata.js");
 const proposalsAndDrafts = require("./proposals-and-drafts/proposals-and-drafts.11tydata.js");
 const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
@@ -32,7 +32,7 @@ module.exports = {
     ...frameworksRecipes.items,
     ...guidesAndTutorials.items,
     ...librariesAndTools.items,
-    ...opinions.items,
+    ...opinionsAndTakes.items,
     ...polyfillsAndShims.items,
     ...proposalsAndDrafts.items,
     ...shadowDOM.items,

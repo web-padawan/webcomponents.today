@@ -1,6 +1,6 @@
 module.exports = {
-  url: "opinions",
-  header: "Opinions",
+  url: "opinions-and-takes",
+  header: "Opinions and Takes",
   description: "Personal opinions on web components standards, related problems, limitations and use cases.",
   items: [
     {
@@ -8,6 +8,12 @@ module.exports = {
       title: "A Web Component Story",
       thumbnail: "cory-laviska.png",
       quote: "Thanks to Web Components, you don't need to rebuild buttons and other UI primitives every few years.",
+    },
+    {
+      url: "https://nhswd.com/blog/6-false-claims-about-web-components/",
+      title: "Fake news: 6 false claims about Web Components",
+      thumbnail: "nhswd.png",
+      quote: "There are lots of false claims about Web Components, and in this article, we've debunked six of them.",
     },
     {
       url: "https://www.bryanbraun.com/2020/08/31/how-searching-for-a-bundle-free-react-led-me-to-web-components/",
@@ -89,6 +95,13 @@ module.exports = {
       thumbnail: "nolan-lawson.png",
       quote:
         "Should standalone web components be written in vanilla JavaScript? Or is it okay if they use their own framework?",
+    },
+    {
+      url: "https://nhswd.com/blog/web-components-101-why-use-web-components/",
+      title: "Why use Web Components?",
+      thumbnail: "nhswd.png",
+      quote:
+        "JS frameworks offer many perks, but they have drawbacks and this is where Web Components can fill the gap.",
     },
     {
       url: "https://viljamis.com/2019/why-we-use-web-components/",
