@@ -16,6 +16,12 @@ module.exports = {
       quote: "Custom Elements polyfill including the ability to extend builtin elements.",
     },
     {
+      url: "https://github.com/webcomponents/template-shadowroot",
+      title: "Declarative Shadow DOM Ponyfill",
+      thumbnail: "github.svg",
+      quote: "A ponyfill that allows HTML with shadow roots to be serialized to plain HTML.",
+    },
+    {
       url: "https://github.com/calebdwilliams/element-internals-polyfill",
       title: "Element Internals Polyfill",
       thumbnail: "github.svg",
@@ -32,6 +38,12 @@ module.exports = {
       title: "Polyfills Loader",
       thumbnail: "modern-web.svg",
       quote: "Manage loading polyfills and/or serving different versions of your application based on browser support.",
+    },
+    {
+      url: "https://github.com/github/template-parts",
+      title: "Template Parts",
+      thumbnail: "github.svg",
+      quote: "A ponyfill for the TemplateInstance API, part of the Template Parts proposal.",
     },
     {
       url: "https://github.com/webcomponents/polyfills",

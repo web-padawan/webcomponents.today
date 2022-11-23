@@ -24,16 +24,28 @@ module.exports = {
     },
     {
       url: "https://open-wc.org/docs/development/scoped-elements/",
-      title: "Development: Scoped Elements",
+      title: "Scoped Elements",
       thumbnail: "open-wc.png",
       quote:
         "Experimental Lit mixin to support using multiple different versions of the same web component on the page.",
+    },
+    {
+      url: "https://dev.to/steveblue/the-state-of-web-components-in-2022-1ip3",
+      title: "The State Of Web Components in 2022",
+      thumbnail: "devto.png",
+      quote: "Various specifications are in some stage of the proposal process that impacts Web Components.",
     },
     {
       url: "https://web.dev/css-module-scripts/",
       title: "Using CSS Module Scripts to import stylesheets",
       thumbnail: "webdev.png",
       quote: "Experimental way to load CSS style sheets with JS import statements.",
+    },
+    {
+      url: "https://github.com/WICG/webcomponents",
+      title: "Web Components",
+      thumbnail: "wicg.png",
+      quote: "Repository for discussing specifications, new proposals and RFCs. Part of the Web Incubator CG.",
     },
     {
       url: "https://www.w3.org/community/webcomponents/",
