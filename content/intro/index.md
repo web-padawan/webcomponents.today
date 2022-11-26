@@ -13,10 +13,10 @@ by the way, boosts are highly welcome! You can also follow me on [Twitter](https
 if you are into that kind of thing, as I'll post there too, for more visibility.
 
 When I started to learn Web Components in early 2016, there was no such website. The initial wave of
-hype that began in 2013 has passed, and Web Components were undergoing the trough of disillusionment.
-As a result of moving from the Chrome-only V0 specs to Custom Elements and Shadow DOM V1 with some
-[significant API changes](https://hayatoito.github.io/2016/shadowdomv1/), a lot of previously
-posted articles quickly became obsolete.
+hype that began in 2013 has passed, and Web Components were undergoing quite a deep trough of
+disillusionment. As a result of moving from the Chrome-only V0 specs to Custom Elements and Shadow DOM
+V1 with some [significant API changes](https://hayatoito.github.io/2016/shadowdomv1/), numerous
+previously posted articles became obsolete.
 
 For example, the [Web Components the Right Way](https://github.com/mateusortiz/webcomponents-the-right-way)
 "awesome list" created by Mateus Ortiz was largely outdated. I wanted to contribute and submitted a
@@ -25,9 +25,9 @@ rapidly evolving standards. Two years later, I became a [maintainer](https://dev
 of this project, and I tried to do my best to keep it in a good shape while adding more content.
 But the problem is, not everyone likes these longs READMEs.
 
-Today it's clear that Web Components are here to stay. I'd say they finally reached the productivity
-plateau and front-end developers are using them more and more (although not as much as JS frameworks
-like React and Vue). But there are still some gaps to fill in terms of the ecosystem.
+Today it's clear that Web Components are here to stay. In my opinion, they finally reached the plateau
+of productivity. Front-end developers use them more often (although not as much as JS frameworks like
+React and Vue). But there are still some notable gaps to fill concerning the ecosystem.
 
 There are ongoing efforts related to Web Components. In particular, there is active development by
 [the Lit team](https://github.com/webcomponents/webcomponents.org/issues/1250#issuecomment-1256401265)
