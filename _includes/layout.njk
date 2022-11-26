@@ -31,6 +31,7 @@
     <div class="content">
       <div class="container">
         <div class="content__wrapper">
+          {%- if items %}
           <aside class="sidebar">
             <div class="sidebar__wrapper">
               <h3 class="sidebar__title">Categories</h3>
@@ -44,11 +45,14 @@
               </ul>
             </div>
           </aside>
+          {%- endif %}
           <main class="main">
           {%- if header %}
             <h2 class="main__title">{{ header }}</h2>
-            <p class="main__description">{{ description }}</p>
+            {%- if description %}<p class="main__description">{{ description }}</p>{% endif %}
+            {%- if date %}<p class="main__date">{{ date }}</p>{% endif %}
           {%- endif %}
+          {%- if items %}
             <div class="main__grid">
             {%- for item in items %}
               <a href="{{ item.url }}" class="item" target="_blank">
@@ -60,6 +64,8 @@
               </a>
             {% endfor -%}
             </div>
+          {%- endif %}
+            <div class="main__content">{{ content | safe }}</div>
           </main>
         </div>
       </div>

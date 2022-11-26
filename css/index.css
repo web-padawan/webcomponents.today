@@ -22,6 +22,14 @@ body {
   background-color: #fafafa;
 }
 
+a {
+  color: #3e546e;
+}
+
+a:hover {
+  color: #2a3948;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -72,7 +80,6 @@ body {
 
 .header__author {
   margin-left: 4px;
-  color: #0e1724;
   text-decoration: none;
 }
 
@@ -177,6 +184,19 @@ body {
   row-gap: 24px;
   column-gap: 24px;
   margin-bottom: 30px;
+}
+
+.main__content {
+  max-width: 52rem;
+  color: #4b4b4e;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.main__date {
+  margin: 0;
+  font-size: 1rem;
 }
 
 /* item */
