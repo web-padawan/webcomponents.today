@@ -30,7 +30,7 @@ module.exports = {
     {
       url: "https://www.fast.design/docs/fast-element/getting-started/",
       title: "FAST Element",
-      thumbnail: "fast.png",
+      thumbnail: "fast.svg",
       quote: "A lightweight means to build performant, memory-efficient web components.",
     },
     {

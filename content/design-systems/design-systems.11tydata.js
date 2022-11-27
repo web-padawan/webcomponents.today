@@ -72,7 +72,7 @@ module.exports = {
     {
       url: "https://www.fast.design",
       title: "FAST",
-      thumbnail: "fast.png",
+      thumbnail: "fast.svg",
       quote: "The adaptive interface system for modern web experiences.",
     },
     {

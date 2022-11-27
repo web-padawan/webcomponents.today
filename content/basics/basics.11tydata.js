@@ -34,12 +34,6 @@ module.exports = {
       quote: "Web Components is a suite of different technologies allowing you to create reusable custom elements.",
     },
     {
-      url: "https://coderpad.io/blog/development/web-components-101-history/",
-      title: "Web Components 101: History",
-      thumbnail: "coderpad.png",
-      quote: "Web components enjoy large-scale usage by major organizations today. That wasn’t always the case.",
-    },
-    {
       url: "https://javascript.info/webcomponents-intro",
       title: "Web Components: From the orbital height",
       thumbnail: "javascript-info.png",
@@ -63,6 +57,12 @@ module.exports = {
       title: "What are Web Components?",
       thumbnail: "nhswd.png",
       quote: "Now is the perfect time to start learning about Web Components, because they are getting more popular.",
+    },
+    {
+      url: "https://www.fast.design/docs/resources/why-web-components/",
+      title: "Why Web Components?",
+      thumbnail: "fast.svg",
+      quote: "Reasons why you might choose Web Components, and their benefits.",
     },
   ],
 };
