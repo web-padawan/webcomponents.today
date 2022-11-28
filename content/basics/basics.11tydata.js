@@ -4,6 +4,12 @@ module.exports = {
   description: "Introducing web components, their main features and parts of HTML and DOM standard.",
   items: [
     {
+      url: "https://css-tricks.com/an-introduction-to-web-components/",
+      title: "An Introduction to Web Components",
+      thumbnail: "css-tricks.svg",
+      quote: "Web Components are a great tool to deliver high-quality user experiences without complicated frameworks.",
+    },
+    {
       url: "https://developer.salesforce.com/blogs/2020/01/intro-to-web-components",
       title: "Intro to Web Components",
       thumbnail: "salesforce.svg",
@@ -51,12 +57,6 @@ module.exports = {
       title: "What are browser-native web components?",
       thumbnail: "gomakethings.png",
       quote: "Today, we’ll be looking at what web components actually are, and why you might want to use them.",
-    },
-    {
-      url: "https://nhswd.com/blog/web-components-101-what-are-web-components/",
-      title: "What are Web Components?",
-      thumbnail: "nhswd.png",
-      quote: "Now is the perfect time to start learning about Web Components, because they are getting more popular.",
     },
     {
       url: "https://www.fast.design/docs/resources/why-web-components/",
