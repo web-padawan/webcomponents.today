@@ -4,6 +4,12 @@ module.exports = {
   description: "Modern and lightweight solutions for building web components with zero boilerplate.",
   items: [
     {
+      url: "https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/",
+      title: "All the Ways to Make a Web Component",
+      thumbnail: "webcomponents-dev.svg",
+      quote: "Compare coding style, bundle size and performance of different ways to make a Web Component.",
+    },
+    {
       url: "https://atomicojs.dev",
       title: "Atomico",
       thumbnail: "atomico.png",
@@ -51,6 +57,13 @@ module.exports = {
       thumbnail: "hybrids.svg",
       quote:
         "UI framework for creating fully-featured web applications, components libraries, or single web components.",
+    },
+    {
+      url: "https://github.com/joist-framework/joist",
+      title: "Joist",
+      thumbnail: "joist.png",
+      quote:
+        "Set of small libraries designed to add the bare minimum to web components to make you as productive as possible.",
     },
     {
       url: "https://lwc.dev",
@@ -107,10 +120,10 @@ module.exports = {
       quote: "Framework-independent standalone HTML serializer for generating markup for web components.",
     },
     {
-      url: "https://webcomponents.dev/",
+      url: "https://webcomponents.dev",
       title: "WebComponents.dev",
       thumbnail: "webcomponents-dev.svg",
-      quote: "Free online IDE for building and publishing web components.",
+      quote: "Online IDE for building and publishing web components.",
     },
   ],
 };
