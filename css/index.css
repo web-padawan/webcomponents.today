@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -15,8 +14,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: rgba(0, 0, 0, 0.6);
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -43,7 +42,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
+  padding: 1.25rem 1.875rem;
   background-color: #fff;
 }
 
@@ -90,7 +89,7 @@ a:hover {
 /* content */
 .content {
   display: flex;
-  padding: 64px 30px;
+  padding: 4rem 1.875rem;
   grid-auto-columns: 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
@@ -105,15 +104,15 @@ a:hover {
 /* sidebar */
 .sidebar {
   width: 260px;
-  margin-right: 64px;
+  margin-right: 4rem;
   flex: 0 0 auto;
 }
 
 .sidebar__title {
-  margin: 0 0 24px;
+  margin: 0 0 1.5rem;
   font-size: 1.25rem;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 2.125rem;
   color: #0e1724;
 }
 
@@ -133,11 +132,11 @@ a:hover {
   align-items: center;
   position: relative;
   width: 100%;
-  height: 56px;
-  padding-left: 32px;
+  height: 3.5rem;
+  padding-left: 2rem;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5rem;
   color: #4b4b4e;
   outline: none;
   text-decoration: none;
@@ -166,9 +165,9 @@ a:hover {
 
 /* main */
 .main__title {
-  margin: 0 0 16px;
+  margin: 0 0 1rem;
   font-size: 3rem;
-  line-height: 54px;
+  line-height: 3.375rem;
   color: #0e1724;
 }
 
@@ -176,13 +175,15 @@ a:hover {
   color: #4b4b4e;
   font-weight: 400;
   font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin: 1.125rem 0;
 }
 
 .main__grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 24px;
-  column-gap: 24px;
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 
 .main__content {
@@ -202,9 +203,9 @@ a:hover {
 .item {
   display: block;
   height: 100%;
-  padding: 32px;
+  padding: 2rem;
   border: 2px solid #cbcbcd;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   background-color: #fff;
   transition: box-shadow 400ms ease;
   color: rgba(0, 0, 0, 0.6);
@@ -222,17 +223,17 @@ a:hover {
 
 .item__thumbnail {
   display: block;
-  width: 76px;
-  margin-bottom: 24px;
-  border-radius: 8px;
+  width: 4.75rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
   border: solid 1px #cbcbcd;
 }
 
 .item__title {
-  margin: 0 0 16px;
+  margin: 0 0 1rem;
   font-size: 1.5rem;
   font-weight: 600;
-  line-height: 34px;
+  line-height: 2.125rem;
   color: #0e1724;
 }
 
@@ -246,11 +247,13 @@ a:hover {
   color: #4b4b4e;
   font-weight: 400;
   font-size: 1.125rem;
+  line-height: 1.5rem;
 }
 
 /* header */
 .footer {
   padding: 1rem 0;
+  line-height: 1.5rem;
 }
 
 .footer > .container {
@@ -259,12 +262,12 @@ a:hover {
 
 @media screen and (max-width: 1140px) {
   .header {
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
 
   .content {
-    padding: 20px 0;
+    padding: 1.25rem 0;
   }
 
   .content__wrapper {
@@ -274,24 +277,24 @@ a:hover {
   .sidebar {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 30px;
-    padding-right: 24px;
-    padding-bottom: 20px;
-    padding-left: 24px;
+    margin-bottom: 1.875rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1.5rem;
     border-bottom: 1px solid #dbdde6;
   }
 
   .sidebar__title {
-    margin: 0 0 16px;
+    margin: 0 0 1rem;
   }
 
   .nav__link {
-    height: 40px;
+    height: 2.5rem;
   }
 
   .main {
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
 
   .main__grid {
@@ -299,7 +302,7 @@ a:hover {
   }
 
   .item {
-    padding: 24px;
+    padding: 1.5rem;
   }
 
   .footer > .container {
@@ -314,7 +317,7 @@ a:hover {
   }
 
   .header__copy {
-    margin: 16px 0 0;
+    margin: 1rem 0 0;
   }
 
   .main__grid {
@@ -324,17 +327,15 @@ a:hover {
 
 @media screen and (max-width: 479px) {
   .sidebar {
-    margin-bottom: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    margin-bottom: 1.25rem;
     border-bottom: 1px solid #dbdde6;
   }
 
+  .sidebar,
   .main {
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1.25rem;
   }
 
   .main__title {
@@ -342,11 +343,15 @@ a:hover {
   }
 
   .main__grid {
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 1.25rem;
+    grid-row-gap: 1.25rem;
   }
 
   .item {
-    padding: 20px;
+    padding: 1.25rem;
+  }
+
+  .footer > .container {
+    text-align: center;
   }
 }
