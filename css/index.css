@@ -183,7 +183,6 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   row-gap: 24px;
   column-gap: 24px;
-  margin-bottom: 30px;
 }
 
 .main__content {
@@ -249,6 +248,15 @@ a:hover {
   font-size: 1.125rem;
 }
 
+/* header */
+.footer {
+  padding: 1rem 0;
+}
+
+.footer > .container {
+  padding-left: 2rem;
+}
+
 @media screen and (max-width: 1140px) {
   .header {
     padding-right: 24px;
@@ -293,6 +301,10 @@ a:hover {
   .item {
     padding: 24px;
   }
+
+  .footer > .container {
+    padding-left: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -330,7 +342,6 @@ a:hover {
   }
 
   .main__grid {
-    margin-bottom: 0;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
   }
