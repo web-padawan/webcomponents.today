@@ -4,10 +4,18 @@ module.exports = {
   description: "CSS Shadow Parts allow web components authors to provide public styling API.",
   items: [
     {
-      url: "https://dev.to/webpadawan/css-shadow-parts-are-coming-mi5",
-      title: "CSS Shadow Parts are coming!",
-      thumbnail: "devto.png",
-      quote: "Shadow parts provide API for styling individual elements in Shadow DOM from outside.",
+      url: "https://meowni.ca/posts/part-theme-explainer/",
+      title: "::part and ::theme, an ::explainer",
+      thumbnail: "meownica.png",
+      quote:
+        "Style encapsulation is great for reusable components, but it adds a barrier for styling and theming them deliberately.",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/CSS/::part",
+      title: "::part()",
+      thumbnail: "mdn.png",
+      quote:
+        "The ::part pseudo-element represents any element within a shadow tree that has a matching part attribute.",
     },
     {
       url: " https://www.abeautifulsite.net/posts/css-parts-inspired-by-bem/",
@@ -16,11 +24,16 @@ module.exports = {
       quote: "A familiar and intuitive approach to shadow parts naming inspired by BEM.",
     },
     {
-      url: "https://meowni.ca/posts/part-theme-explainer/",
-      title: "::part and ::theme, an ::explainer",
-      thumbnail: "meownica.png",
-      quote:
-        "Style encapsulation is great for reusable components, but it adds a barrier for styling and theming them deliberately.",
+      url: "https://ionicframework.com/docs/theming/css-shadow-parts",
+      title: "CSS Shadow Parts",
+      thumbnail: "ionic.png",
+      quote: "Shadow parts are extremely useful in customizing Ionic Framework Shadow DOM components.",
+    },
+    {
+      url: "https://dev.to/webpadawan/css-shadow-parts-are-coming-mi5",
+      title: "CSS Shadow Parts are coming!",
+      thumbnail: "devto.png",
+      quote: "Shadow parts provide API for styling individual elements in Shadow DOM from outside.",
     },
     {
       url: "https://css-tricks.com/styling-in-the-shadow-dom-with-css-shadow-parts/",
