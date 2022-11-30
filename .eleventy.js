@@ -1,4 +1,5 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const eleventyRssPlugin = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (config) {
   config.setDataDeepMerge(true);
@@ -7,6 +8,7 @@ module.exports = function (config) {
   config.addPassthroughCopy("favicon.ico");
   config.addPassthroughCopy("site.webmanifest");
   config.addPlugin(eleventyNavigationPlugin);
+  config.addPlugin(eleventyRssPlugin);
 
   // https://www.11ty.io/docs/config/#configuration-options
   return {
