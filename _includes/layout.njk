@@ -68,6 +68,14 @@
             {% endfor -%}
             </div>
           {%- endif %}
+          {%- if home %}
+            {% set postslist = collections.post %}
+            {%- if postslist[0].data.header %}
+              <h2 class="main__title">{{ postslist[0].data.header }}</h2>
+              <p class="main__date">{{ postslist[0].data.date }}</p>
+            {%- endif %}
+            <div class="main__content">{{ postslist[0].templateContent | safe }}</div>
+          {%- endif %}
             <div class="main__content">{{ content | safe }}</div>
           </main>
         </div>

@@ -1,4 +1,5 @@
 ---
+tags: post
 layout: layout
 templateEngineOverride: md
 ---
