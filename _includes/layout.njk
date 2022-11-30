@@ -11,9 +11,18 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#2a3948">
     <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="{{ header if header else metadata.title }}" />
+    <meta property="og:description" content="{{ description if description else metadata.description }}" />
     <meta property="og:image" content="/img/favicon/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="twitter:account_id" content="3346333979" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="/img/favicon/twitter-card.png" />
+    <meta name="twitter:site" content="@serhiikullykov" />
+    <meta name="twitter:creator" content="@serhiikullykov" />
+    <meta property="twitter:title" content="{{ header if header else metadata.title }}" />
+    <meta property="twitter:description" content="{{ description if description else metadata.description }}" />
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
   </head>
   <body>
