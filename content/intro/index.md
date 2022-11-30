@@ -30,14 +30,14 @@ of productivity. Front-end developers use them more often (although not as much 
 React and Vue). But there are still some notable gaps to fill concerning the ecosystem.
 
 There are ongoing efforts related to Web Components. In particular, there is active development by
-[the Lit team](https://github.com/webcomponents/webcomponents.org/issues/1250#issuecomment-1256401265)
+the [Lit team](https://github.com/webcomponents/webcomponents.org/issues/1250#issuecomment-1256401265)
 on rebuilding the [webcomponents.org](https://www.webcomponents.org/) project. Also, since the last year,
 we've seen a lot of activity from the [Web Components Community Group at W3C](https://web-components-cg.netlify.app).
 But in this case, more is better.
 
-After all, this project is really simple: it's just a static website with hundreds of links to other
-resources that I carefully selected, grouped by topics. Most of the articles are from 2019 or newer:
-by then, Web Components APIs landed in all modern browsers. However, one thing that I especially like
+This project is really simple: it's just a static website with hundreds of links to other resources
+that I carefully selected, grouped by topics. Most of the articles are from 2019 or newer: by then,
+Web Components APIs landed in all modern browsers. However, one thing that I especially enjoy
 about web standards is that even some [examples from 2017](https://web.dev/web-components/) are still
 relevant and worth checking out.
 
@@ -48,7 +48,7 @@ dedicate the final day of this advent series to celebrating all the folks within
 
 One last thing: let me also introduce myself. I'm Serhii Kulykov, a software engineer from Ukraine.
 As you might have heard, there is an ongoing war and the russian invasion of my country. And I'm writing
-these words just two days after the huge blackout caused by russian missile strikes, so this project
+these words just one week after the huge blackout caused by russian missile strikes, so this project
 may encounter challenges. If you want to support my work, please [support Ukraine](https://stand-with-ukraine.pp.ua/) instead.
 
 If you have any feedback or ideas on how to improve this project, let's get in touch! My hope is that

@@ -256,7 +256,7 @@ a:hover {
   line-height: 1.5rem;
 }
 
-.footer > .container {
+.footer--catalog > .container {
   padding-left: 2rem;
 }
 
@@ -323,6 +323,11 @@ a:hover {
   .main__grid {
     grid-template-columns: 1fr;
   }
+
+  .footer > .container {
+    padding: 0 0.5rem;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -349,9 +354,5 @@ a:hover {
 
   .item {
     padding: 1.25rem;
-  }
-
-  .footer > .container {
-    text-align: center;
   }
 }
