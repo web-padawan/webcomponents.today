@@ -4,13 +4,13 @@ layout: layout
 templateEngineOverride: md
 ---
 
-Welcome to **Web Components bookmarks** — the ultimate list of up-to-date materials, guides, and resources!
-This has been a long-lasting project and I'm excited to finally share it publicly. Please stay tuned
-to observe how this collection evolves. In the coming days, it will become open source.
+Welcome to **Web Components bookmarks** — the curated collection of up-to-date Web Components guides
+and resources! I'm excited to finally share this project publicly, with lots of content to be added
+every day in the upcoming weeks, so stay tuned. In the end of December, I'll make it open source.
 
 At the time of writing this project is still in development. You can track the progress at Mastodon
 by following the [#WebComponentsAdvent](https://fosstodon.org/tags/WebComponentsAdvent) hashtag. And
-by the way, boosts are highly welcome! You can also follow me on [Twitter](https://twitter.com/serhiikulykov)
+by the way, boosts are highly welcome! Feel free to also follow me on [Twitter](https://twitter.com/serhiikulykov)
 if you are into that kind of thing, as I'll post there too, for more visibility.
 
 When I started to learn Web Components in early 2016, there was no such website. The initial wave of
