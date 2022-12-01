@@ -1,5 +1,5 @@
 // const a11y = require("./accessibility/accessibility.11tydata.js");
-// const basics = require("./basics/basics.11tydata.js");
+const basics = require("./basics/basics.11tydata.js");
 // const bestPractices = require("./best-practices/best-practices.11tydata.js");
 // const caseStudies = require("./case-studies/case-studies.11tydata.js");
 // const codelabs = require("./codelabs/codelabs.11tydata.js");
@@ -9,7 +9,7 @@
 // const formParticipation = require("./form-participation/form-participation.11tydata.js");
 // const frameworksRecipes = require("./frameworks-recipes/frameworks-recipes.11tydata.js");
 // const guidesAndTutorials = require("./guides-and-tutorials/guides-and-tutorials.11tydata.js");
-// const history = require("./history/history.11tydata.js");
+const history = require("./history/history.11tydata.js");
 // const htmlTemplates = require("./html-templates/html-templates.11tydata.js");
 // const librariesAndTools = require("./libraries-and-tools/libraries-and-tools.11tydata.js");
 // const opinionsAndTakes = require("./opinions-and-takes/opinions-and-takes.11tydata.js");
@@ -21,32 +21,31 @@
 // const testAutomation = require("./test-automation/test-automation.11tydata.js");
 
 module.exports = {
-  home: true,
-  // items: [
-  //   ...a11y.items,
-  //   ...basics.items,
-  //   ...bestPractices.items,
-  //   ...caseStudies.items,
-  //   ...codelabs.items,
-  //   ...componentLibraries.items,
-  //   ...elements.items,
-  //   ...designSystems.items,
-  //   ...formParticipation.items,
-  //   ...frameworksRecipes.items,
-  //   ...guidesAndTutorials.items,
-  //   ...history.items,
-  //   ...htmlTemplates.items,
-  //   ...librariesAndTools.items,
-  //   ...opinionsAndTakes.items,
-  //   ...polyfillsAndShims.items,
-  //   ...proposalsAndDrafts.items,
-  //   ...shadowDOM.items,
-  //   ...shadowParts.items,
-  //   ...stylingAndTheming.items,
-  //   ...testAutomation.items,
-  // ].sort((a, b) => {
-  //   const textA = a.title.toUpperCase();
-  //   const textB = b.title.toUpperCase();
-  //   return textA < textB ? -1 : textA > textB ? 1 : 0;
-  // }),
+  items: [
+    //   ...a11y.items,
+    ...basics.items,
+    //   ...bestPractices.items,
+    //   ...caseStudies.items,
+    //   ...codelabs.items,
+    //   ...componentLibraries.items,
+    //   ...elements.items,
+    //   ...designSystems.items,
+    //   ...formParticipation.items,
+    //   ...frameworksRecipes.items,
+    //   ...guidesAndTutorials.items,
+    ...history.items,
+    //   ...htmlTemplates.items,
+    //   ...librariesAndTools.items,
+    //   ...opinionsAndTakes.items,
+    //   ...polyfillsAndShims.items,
+    //   ...proposalsAndDrafts.items,
+    //   ...shadowDOM.items,
+    //   ...shadowParts.items,
+    //   ...stylingAndTheming.items,
+    //   ...testAutomation.items,
+  ].sort((a, b) => {
+    const textA = a.title.toUpperCase();
+    const textB = b.title.toUpperCase();
+    return textA < textB ? -1 : textA > textB ? 1 : 0;
+  }),
 };

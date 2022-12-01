@@ -46,9 +46,15 @@
           {%- if items %}
           <aside class="sidebar">
             <div class="sidebar__wrapper">
-              <h3 class="sidebar__title">Categories</h3>
+              <!-- <h3 class="sidebar__title">Categories</h3> -->
               {%- set navPages = collections.all | eleventyNavigation %}
               <ul class="nav">
+                <li class="nav__item">
+                  <a class="nav__link{% if '/intro/' == page.url %} nav__link--active{% endif %}" href="/intro/">Introduction</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link{% if '/' == page.url %} nav__link--active{% endif %}" href="/">All resources</a>
+                </li>
               {%- for entry in navPages %}
                 <li class="nav__item">
                   <a class="nav__link{% if entry.url == page.url %} nav__link--active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
@@ -76,14 +82,6 @@
               </a>
             {% endfor -%}
             </div>
-          {%- endif %}
-          {%- if home %}
-            {% set postslist = collections.post %}
-            {%- if postslist[0].data.header %}
-              <h2 class="main__title">{{ postslist[0].data.header }}</h2>
-              <p class="main__date">{{ postslist[0].data.date }}</p>
-            {%- endif %}
-            <div class="main__content">{{ postslist[0].templateContent | safe }}</div>
           {%- endif %}
             <div class="main__content">{{ content | safe }}</div>
           </main>
