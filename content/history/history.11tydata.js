@@ -36,10 +36,10 @@ module.exports = {
         "Feature design is hard, and takes time. To make things less bad, I decided to start writing these little docs.",
     },
     {
-      url: "https://dev.to/webpadawan/the-journey-of-web-components-wrong-ways-lacking-parts-and-promising-paths-1d5a",
-      title: "The Web Components journey: wrong ways, lacking parts and promising paths",
-      thumbnail: "devto.png",
-      quote: "Exploring the path of Web Components towards the wider adoption.",
+      url: "https://hacks.mozilla.org/2015/06/the-state-of-web-components/",
+      title: "The state of Web Components",
+      thumbnail: "mozilla-hacks.png",
+      quote: "Web Components were a Google effort and little negotiation was made with other browsers before shipping.",
     },
     {
       url: "https://kaytcat.github.io/web-components/",
