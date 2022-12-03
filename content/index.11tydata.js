@@ -15,8 +15,8 @@ const history = require("./history/history.11tydata.js");
 // const opinionsAndTakes = require("./opinions-and-takes/opinions-and-takes.11tydata.js");
 // const polyfillsAndShims = require("./polyfills-and-shims/polyfills-and-shims.11tydata.js");
 // const proposalsAndDrafts = require("./proposals-and-drafts/proposals-and-drafts.11tydata.js");
-// const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
-// const shadowParts = require("./shadow-parts/shadow-parts.11tydata.js");
+const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
+const shadowParts = require("./shadow-parts/shadow-parts.11tydata.js");
 // const stylingAndTheming = require("./styling-and-theming/styling-and-theming.11tydata.js");
 // const testAutomation = require("./test-automation/test-automation.11tydata.js");
 
@@ -39,8 +39,8 @@ module.exports = {
     //   ...opinionsAndTakes.items,
     //   ...polyfillsAndShims.items,
     //   ...proposalsAndDrafts.items,
-    //   ...shadowDOM.items,
-    //   ...shadowParts.items,
+    ...shadowDOM.items,
+    ...shadowParts.items,
     //   ...stylingAndTheming.items,
     //   ...testAutomation.items,
   ].sort((a, b) => {
