@@ -127,6 +127,39 @@ a:hover {
   list-style-type: none;
 }
 
+.nav__item--toggle,
+.nav__checkbox {
+  /* mobile only */
+  display: none;
+}
+
+.nav__checkbox {
+  position: relative;
+  width: 100%;
+  height: 2.5rem;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav__checkbox:hover + .nav .nav__item--toggle {
+  text-decoration: underline;
+}
+
+.nav__checkbox:focus + .nav .nav__item--toggle {
+  background: #f1f1f1;
+}
+
+.nav__checkbox + .nav .nav__item--toggle > .nav__link::before {
+  content: "Expand all";
+}
+
+.nav__checkbox:checked + .nav .nav__item--toggle > .nav__link::before {
+  content: "Collapse all";
+}
+
 .nav__link {
   display: flex;
   align-items: center;
@@ -142,19 +175,19 @@ a:hover {
   text-decoration: none;
 }
 
-.nav__link:not(.nav__link--active):hover {
-  text-decoration: underline;
-}
-
-.nav__link:not(.nav__link--active):focus {
-  background: #f1f1f1;
-}
-
-.nav__link.nav__link--active {
+.nav__item--active .nav__link {
   background: #e2e2e2;
 }
 
-.nav__link.nav__link--active::after {
+.nav__item:not(.nav__item--active) .nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__item:not(.nav__item--active) .nav__link:focus {
+  background: #f1f1f1;
+}
+
+.nav__item--active .nav__link::after {
   background-color: #999;
   content: "";
   height: 100%;
@@ -286,6 +319,23 @@ a:hover {
 
   .sidebar__title {
     margin: 0 0 1rem;
+  }
+
+  .nav__item--toggle,
+  .nav__checkbox {
+    display: block;
+  }
+
+  .nav {
+    margin-top: -2.5rem;
+  }
+
+  .nav__item:not(.nav__item--active):not(.nav__item--toggle) {
+    display: none;
+  }
+
+  .nav__checkbox:checked + .nav .nav__item:not(.nav__item--active):not(.nav__item--toggle) {
+    display: block;
   }
 
   .nav__link {

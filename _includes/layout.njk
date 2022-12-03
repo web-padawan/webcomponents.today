@@ -43,27 +43,29 @@
     <div class="content">
       <div class="container">
         <div class="content__wrapper">
-          {%- if items %}
           <aside class="sidebar">
             <div class="sidebar__wrapper">
               <!-- <h3 class="sidebar__title">Categories</h3> -->
               {%- set navPages = collections.all | eleventyNavigation %}
+              <input type="checkbox" class="nav__checkbox" />
               <ul class="nav">
-                <li class="nav__item">
-                  <a class="nav__link{% if '/intro/' == page.url %} nav__link--active{% endif %}" href="/intro/">Introduction</a>
+                <li class="nav__item nav__item--toggle">
+                  <span class="nav__link"></span>
                 </li>
-                <li class="nav__item">
-                  <a class="nav__link{% if '/' == page.url %} nav__link--active{% endif %}" href="/">All resources</a>
+                <li class="nav__item{% if '/intro/' == page.url %} nav__item--active{% endif %}">
+                  <a class="nav__link" href="/intro/">Introduction</a>
+                </li>
+                <li class="nav__item{% if '/' == page.url %} nav__item--active{% endif %}">
+                  <a class="nav__link" href="/">All resources</a>
                 </li>
               {%- for entry in navPages %}
-                <li class="nav__item">
-                  <a class="nav__link{% if entry.url == page.url %} nav__link--active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
+                  <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
                 </li>
               {%- endfor %}
               </ul>
             </div>
           </aside>
-          {%- endif %}
           <main class="main">
           {%- if header %}
             <h2 class="main__title">{{ header }}</h2>
