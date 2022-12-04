@@ -11,7 +11,7 @@ const elements = require("./custom-elements/custom-elements.11tydata.js");
 // const frameworksRecipes = require("./frameworks-recipes/frameworks-recipes.11tydata.js");
 // const guidesAndTutorials = require("./guides-and-tutorials/guides-and-tutorials.11tydata.js");
 const history = require("./history/history.11tydata.js");
-// const htmlTemplates = require("./html-templates/html-templates.11tydata.js");
+const htmlTemplates = require("./html-templates/html-templates.11tydata.js");
 // const librariesAndTools = require("./libraries-and-tools/libraries-and-tools.11tydata.js");
 // const opinionsAndTakes = require("./opinions-and-takes/opinions-and-takes.11tydata.js");
 // const polyfillsAndShims = require("./polyfills-and-shims/polyfills-and-shims.11tydata.js");
@@ -36,7 +36,7 @@ module.exports = {
     //   ...frameworksRecipes.items,
     //   ...guidesAndTutorials.items,
     ...history.items,
-    //   ...htmlTemplates.items,
+    ...htmlTemplates.items,
     //   ...librariesAndTools.items,
     //   ...opinionsAndTakes.items,
     //   ...polyfillsAndShims.items,
