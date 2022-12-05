@@ -30,11 +30,25 @@ module.exports = {
         "Managing focus in the DOM has never been particularly easy, and shadow DOM just makes things that much trickier.",
     },
     {
+      url: "https://nolanlawson.com/2022/11/28/shadow-dom-and-accessibility-the-trouble-with-aria/",
+      title: "Shadow DOM and accessibility: the trouble with ARIA",
+      thumbnail: "nolan-lawson.png",
+      quote:
+        "If you want to use shadow DOM without breaking accessibility, then this is one of the things you will have to grapple with.",
+    },
+    {
       url: "https://dev.to/westbrook/testing-accessibility-with-shadow-roots-55cm",
       title: "Testing Accessibility with Shadow Roots",
       thumbnail: "devto.png",
       quote:
         "Building accessible web components on the example of an input element pattern with a label and help text.",
+    },
+    {
+      url: "https://github.com/WICG/aom",
+      title: "The Accessibility Object Model (AOM)",
+      thumbnail: "wicg.png",
+      quote:
+        "Proposal that aims to provide JavaScript API to allow developers to modify the accessibility tree for an HTML page.",
     },
     {
       url: "https://robdodson.me/posts/the-future-of-accessibility-for-custom-elements/",
