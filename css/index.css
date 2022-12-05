@@ -1,6 +1,46 @@
 html {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
+  /* Color theme */
+  --body-color: #666;
+  --header-background: #fff;
+  --main-background: #fafafa;
+  --link-default-color: #3e546e;
+  --link-hover-color: #2a3948;
+  --title-color: #0e1724;
+  --nav-link-color: #4b4b4e;
+  --nav-link-active-background: #e2e2e2;
+  --nav-link-active-border-color: #999;
+  --nav-link-focus-background: #f1f1f1;
+  --content-color: #4b4b4e;
+  --item-background: #fff;
+  --item-thumbnail-background: #fafafa;
+  --item-hover-shadow-color: rgba(0, 0, 0, 0.16);
+  --item-focus-shadow-color: rgba(0, 0, 0, 0.32);
+  --item-border-color: #cbcbcd;
+  --sidebar-border-color: #dbdde6;
+  --footer-color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --header-background: #0e1724;
+    --main-background: #2a3948;
+    --title-color: #f1f1f1;
+    --link-default-color: #7cc7e2;
+    --link-hover-color: #8ce2ff;
+    --content-color: #e2e2e2;
+    --item-background: #142133;
+    --item-hover-shadow-color: rgba(255, 255, 255, 0.32);
+    --item-focus-shadow-color: rgba(255, 255, 255, 0.48);
+    --sidebar-border-color: #4b4b4e;
+    --nav-link-color: #e0f0f6;
+    --nav-link-active-background: #3e546e;
+    --nav-link-active-border-color: #476180;
+    --nav-link-focus-background: #33465c;
+    --item-border-color: #33465c;
+    --footer-color: #dbdde6;
+  }
 }
 
 *,
@@ -13,20 +53,20 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--body-color);
   font-size: 0.875rem;
   line-height: 1.25rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: var(--main-background);
 }
 
 a {
-  color: #3e546e;
+  color: var(--link-default-color);
 }
 
 a:hover {
-  color: #2a3948;
+  color: var(--link-hover-color);
 }
 
 .container {
@@ -43,7 +83,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem 1.875rem;
-  background-color: #fff;
+  background-color: var(--header-background);
 }
 
 .header__link {
@@ -64,7 +104,7 @@ a:hover {
 .header__title {
   width: 200px;
   margin: 0 0 0 16px;
-  color: #0e1724;
+  color: var(--title-color);
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.2;
@@ -75,6 +115,7 @@ a:hover {
   align-items: center;
   margin-left: auto;
   font-size: 1rem;
+  color: var(--content-color);
 }
 
 .header__author {
@@ -113,7 +154,7 @@ a:hover {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 2.125rem;
-  color: #0e1724;
+  color: var(--title-color);
 }
 
 /* nav */
@@ -149,7 +190,7 @@ a:hover {
 }
 
 .nav__checkbox:focus + .nav .nav__item--toggle {
-  background: #f1f1f1;
+  background: var(--nav-link-focus-background);
 }
 
 .nav__checkbox + .nav .nav__item--toggle > .nav__link::before {
@@ -170,13 +211,13 @@ a:hover {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5rem;
-  color: #4b4b4e;
+  color: var(--nav-link-color);
   outline: none;
   text-decoration: none;
 }
 
 .nav__item--active .nav__link {
-  background: #e2e2e2;
+  background: var(--nav-link-active-background);
 }
 
 .nav__item:not(.nav__item--active) .nav__link:hover {
@@ -184,11 +225,11 @@ a:hover {
 }
 
 .nav__item:not(.nav__item--active) .nav__link:focus {
-  background: #f1f1f1;
+  background: var(--nav-link-focus-background);
 }
 
 .nav__item--active .nav__link::after {
-  background-color: #999;
+  background-color: var(--nav-link-active-border-color);
   content: "";
   height: 100%;
   position: absolute;
@@ -201,11 +242,11 @@ a:hover {
   margin: 0 0 1rem;
   font-size: 3rem;
   line-height: 3.375rem;
-  color: #0e1724;
+  color: var(--title-color);
 }
 
 .main__description {
-  color: #4b4b4e;
+  color: var(--content-color);
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.5rem;
@@ -221,7 +262,7 @@ a:hover {
 
 .main__content {
   max-width: 56.25rem;
-  color: #4b4b4e;
+  color: var(--content-color);
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.5;
@@ -237,21 +278,20 @@ a:hover {
   display: block;
   height: 100%;
   padding: 2rem;
-  border: 2px solid #cbcbcd;
+  border: 2px solid var(--item-border-color);
   border-radius: 0.75rem;
-  background-color: #fff;
+  background-color: var(--item-background);
   transition: box-shadow 400ms ease;
-  color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
   outline: none;
 }
 
 .item:hover {
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 10px 30px -10px var(--item-hover-shadow-color);
 }
 
 .item:focus {
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.32);
+  box-shadow: 0 10px 30px -10px var(--item-focus-shadow-color);
 }
 
 .item__thumbnail {
@@ -259,7 +299,8 @@ a:hover {
   width: 4.75rem;
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
-  border: solid 1px #cbcbcd;
+  background-color: var(--item-thumbnail-background);
+  border: solid 1px var(--item-border-color);
 }
 
 .item__title {
@@ -267,7 +308,7 @@ a:hover {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 2.125rem;
-  color: #0e1724;
+  color: var(--title-color);
 }
 
 .item__quote {
@@ -277,16 +318,17 @@ a:hover {
   -webkit-line-clamp: 3;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #4b4b4e;
+  color: var(--content-color);
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
 
-/* header */
+/* footer */
 .footer {
   padding: 1rem 0;
   line-height: 1.5rem;
+  color: var(--footer-color);
 }
 
 .footer--catalog > .container {
@@ -314,7 +356,7 @@ a:hover {
     padding-right: 1.5rem;
     padding-bottom: 1.25rem;
     padding-left: 1.5rem;
-    border-bottom: 1px solid #dbdde6;
+    border-bottom: 1px solid var(--sidebar-border-color);
   }
 
   .sidebar__title {
@@ -383,7 +425,7 @@ a:hover {
 @media screen and (max-width: 479px) {
   .sidebar {
     margin-bottom: 1.25rem;
-    border-bottom: 1px solid #dbdde6;
+    border-bottom: 1px solid var(--sidebar-border-color);
   }
 
   .sidebar,
