@@ -7,7 +7,7 @@ const basics = require("./basics/basics.11tydata.js");
 const elements = require("./custom-elements/custom-elements.11tydata.js");
 // const designSystems = require("./design-systems/design-systems.11tydata.js");
 // const documenting = require("./documenting/documenting.11tydata.js");
-// const formParticipation = require("./form-participation/form-participation.11tydata.js");
+const formParticipation = require("./form-participation/form-participation.11tydata.js");
 // const frameworksRecipes = require("./frameworks-recipes/frameworks-recipes.11tydata.js");
 // const guidesAndTutorials = require("./guides-and-tutorials/guides-and-tutorials.11tydata.js");
 const history = require("./history/history.11tydata.js");
@@ -32,7 +32,7 @@ module.exports = {
     ...elements.items,
     //   ...designSystems.items,
     //   ...documenting.items,
-    //   ...formParticipation.items,
+    ...formParticipation.items,
     //   ...frameworksRecipes.items,
     //   ...guidesAndTutorials.items,
     ...history.items,

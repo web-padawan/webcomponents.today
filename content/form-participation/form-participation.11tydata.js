@@ -4,9 +4,9 @@ module.exports = {
   description: "Limitations and browser APIs related to using Custom Elements and Shadow DOM in forms.",
   items: [
     {
-      url: "https://css-tricks.com/creating-custom-form-controls-with-elementinternals/",
+      url: "https://www.filamentgroup.com/lab/forms-with-custom-elements/",
       title: "Building Forms with Custom Elements",
-      thumbnail: "flamentgroup.png",
+      thumbnail: "filamentgroup.png",
       quote: "Custom elements can be efficient and powerful, but when it comes to building forms they need help.",
     },
     {
