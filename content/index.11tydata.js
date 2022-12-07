@@ -12,7 +12,7 @@ const formParticipation = require("./form-participation/form-participation.11tyd
 // const guidesAndTutorials = require("./guides-and-tutorials/guides-and-tutorials.11tydata.js");
 const history = require("./history/history.11tydata.js");
 const htmlTemplates = require("./html-templates/html-templates.11tydata.js");
-// const librariesAndTools = require("./libraries-and-tools/libraries-and-tools.11tydata.js");
+const librariesAndTools = require("./libraries-and-tools/libraries-and-tools.11tydata.js");
 // const opinionsAndTakes = require("./opinions-and-takes/opinions-and-takes.11tydata.js");
 // const polyfillsAndShims = require("./polyfills-and-shims/polyfills-and-shims.11tydata.js");
 // const proposalsAndDrafts = require("./proposals-and-drafts/proposals-and-drafts.11tydata.js");
@@ -37,7 +37,7 @@ module.exports = {
     //   ...guidesAndTutorials.items,
     ...history.items,
     ...htmlTemplates.items,
-    //   ...librariesAndTools.items,
+    ...librariesAndTools.items,
     //   ...opinionsAndTakes.items,
     //   ...polyfillsAndShims.items,
     //   ...proposalsAndDrafts.items,
