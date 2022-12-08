@@ -28,10 +28,10 @@ module.exports = {
       quote: "UI kit, icons, color schemes, and a web component library by ArcGIS.",
     },
     {
-      url: "https://web-components.carbondesignsystem.com/?path=/story/introduction-welcome--page",
-      title: "Carbon Web Components",
+      url: "https://www.ibm.com/standards/carbon/web-components/",
+      title: "Carbon for IBM.com Web Components",
       thumbnail: "carbon.svg",
-      quote: "Carbon Design System variant on top of web components built by IBM.",
+      quote: "A Carbon for IBM.com variant that is as easy to use as native HTML elements.",
     },
     {
       url: "https://core.clarity.design",
