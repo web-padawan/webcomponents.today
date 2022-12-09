@@ -112,7 +112,7 @@ module.exports = {
       quote: "Accessible white label web components for building your design system.",
     },
     {
-      url: "https://webcomponents.psu.edu/styleguide/",
+      url: "https://github.com/elmsln/lrnwebcomponents",
       title: "LRNWebcomponents",
       thumbnail: "elmsln.png",
       quote: "Collection of reusable components developed by Penn State University.",
