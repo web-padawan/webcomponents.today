@@ -130,6 +130,18 @@ module.exports = {
       quote: "Web Components for rapid development of openEHR and FHIR systems.",
     },
     {
+      url: "https://github.com/johnsonandjohnson/mettle-components",
+      title: "Mettle Custom Elements",
+      thumbnail: "mettle.svg",
+      quote: "Collection of custom elements to be used in front-end applications.",
+    },
+    {
+      url: "https://github.com/muxinc/elements",
+      title: "mux-elements",
+      thumbnail: "mux.png",
+      quote: "Custom elements for working with media in the browser that Just Work™.",
+    },
+    {
       url: "https://ebi-webcomponents.github.io/nightingale/",
       title: "Nightingale",
       thumbnail: "nightingale.svg",
