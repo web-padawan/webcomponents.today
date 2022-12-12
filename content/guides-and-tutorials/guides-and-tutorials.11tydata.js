@@ -49,10 +49,34 @@ module.exports = {
       quote: "Stencil is a compiler helping to create custom Web Components libraries.",
     },
     {
+      url: "https://coryrylan.com/blog/using-modern-web-components",
+      title: "Using Modern Web Components",
+      thumbnail: "cory-rylan.png",
+      quote: "Web Components use the same set of standard shared public APIs, regardless of how you build them.",
+    },
+    {
       url: "https://css-tricks.com/using-web-components-in-wordpress-is-easier-than-you-think/",
       title: "Using Web Components in WordPress is Easier Than You Think",
       thumbnail: "css-tricks.svg",
       quote: "There are three major ways we can add Web Components to Wordpress CMS.",
+    },
+    {
+      url: "https://coderpad.io/blog/development/web-components-101-framework-comparison/",
+      title: "Web Components 101: Framework Comparison",
+      thumbnail: "coderpad.png",
+      quote: "Using an existing framework is often the better tool than vanilla web components.",
+    },
+    {
+      url: "https://coderpad.io/blog/development/web-components-101-lit-framework/",
+      title: "Web Components 101: Lit framework",
+      thumbnail: "coderpad.png",
+      quote: "How using Lit library can help to simplify web component development.",
+    },
+    {
+      url: "https://dev.to/thepassle/web-components-from-zero-to-hero-4n4m",
+      title: "Web Components: from zero to hero",
+      thumbnail: "devto.png",
+      quote: "This blogpost is intended to get a better grasp of the basics of web components.",
     },
     {
       url: "https://dev.to/alangdm/where-to-begin-building-web-components-the-basics-3b78",
