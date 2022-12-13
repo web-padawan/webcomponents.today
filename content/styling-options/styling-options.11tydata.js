@@ -1,6 +1,6 @@
 module.exports = {
-  url: "styling-and-theming",
-  header: "Styling and Theming",
+  url: "styling-options",
+  header: "Styling Options",
   description: "Overview of various aspects related to styling web components with and without Shadow DOM.",
   items: [
     {
@@ -60,6 +60,19 @@ module.exports = {
         "As a general rule, local styles work only inside the shadow tree, and document styles work outside of it.",
     },
     {
+      url: "https://kittygiraudel.com/2021/08/23/shadow-roots-and-inheritance/",
+      title: "Shadow roots and inheritance",
+      thumbnail: "kitty-giraudel.jpeg",
+      quote: "I encountered a bit of a HTML/CSS oddity the other day, so I thought I’d share what I learnt.",
+    },
+    {
+      url: "https://www.dannymoerkerke.com/blog/smart-styling-of-web-components/",
+      title: "Smart Styling Of Web Components",
+      thumbnail: "danny-moerkerke.png",
+      quote:
+        "Web Components provide an excellent solution for state-based styling by reflecting properties to attributes.",
+    },
+    {
       url: "https://nolanlawson.com/2022/06/22/style-scoping-versus-shadow-dom-which-is-fastest/",
       title: "Style scoping versus shadow DOM: which is fastest?",
       thumbnail: "nolan-lawson.png",
@@ -76,6 +89,13 @@ module.exports = {
       title: "Styling Components Using Shadow DOM",
       thumbnail: "wc-cg.png",
       quote: "Different ways of styling components which are using shadow DOM.",
+    },
+    {
+      url: "https://www.matuzo.at/blog/2022/100daysof-day45/",
+      title: "The specificity of ::slotted() content",
+      thumbnail: "matuzo.png",
+      quote:
+        "By using ::slotted() we can add styles, but these styles have lower specificity than global document styles.",
     },
     {
       url: "https://medium.com/patternfly-elements/patternfly-elements-theming-hooks-using-css-variables-in-a-component-4e8c481f86b6",
@@ -95,6 +115,13 @@ module.exports = {
       title: "Using Tailwind CSS with web components and Shadow DOM in LitElement",
       thumbnail: "campzulu.png",
       quote: "With LitElement we found a good way to get the best of both worlds without having to disable ShadowDOM.",
+    },
+    {
+      url: "https://campzulu.hashnode.dev/using-tailwindcss-with-web-components-and-shadowdom-in-litelement",
+      title: "Using Tailwind v3 with Lit elements",
+      thumbnail: "devto.png",
+      quote:
+        "Quite often I see people asking around the Lit community about how to use Tailwind inside their Lit elements.",
     },
     {
       url: "https://css-tricks.com/web-component-pseudo-classes-and-pseudo-elements/",
