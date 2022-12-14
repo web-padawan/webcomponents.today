@@ -296,7 +296,7 @@ a:hover {
 
 .item__thumbnail {
   display: block;
-  width: 4.75rem;
+  width: 4.8125rem;
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
   background-color: var(--item-thumbnail-background);
