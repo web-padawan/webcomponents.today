@@ -40,6 +40,12 @@ module.exports = {
       quote: "I had a ton of fun messing around with web components, and I learned a lot.",
     },
     {
+      url: "https://www.dannymoerkerke.com/blog/the-failed-criticism-of-web-components/",
+      title: "The failed criticism of Web Components",
+      thumbnail: "danny-moerkerke.png",
+      quote: "Why Lea Verou’s criticism of Web Components is misdirected.",
+    },
+    {
       url: "https://lea.verou.me/2020/09/the-failed-promise-of-web-components/",
       title: "The failed promise of Web Components",
       thumbnail: "lea-verou.svg",
@@ -56,6 +62,12 @@ module.exports = {
       title: "The Perks Of Web Components",
       thumbnail: "thinktecture.png",
       quote: "Developer experience and business benefits of Web Components.",
+    },
+    {
+      url: "https://dev.to/webpadawan/the-journey-of-web-components-wrong-ways-lacking-parts-and-promising-paths-1d5a",
+      title: "The Web Components journey: wrong ways, lacking parts and promising paths",
+      thumbnail: "devto.png",
+      quote: "Exploring the path of Web Components towards the wider adoption.",
     },
     {
       url: "https://www.dannymoerkerke.com/blog/theres-no-need-to-hate-web-components",
