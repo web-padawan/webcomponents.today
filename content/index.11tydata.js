@@ -19,6 +19,7 @@ const proposalsAndDrafts = require("./proposals-and-drafts/proposals-and-drafts.
 const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
 const shadowParts = require("./shadow-parts/shadow-parts.11tydata.js");
 // const showcase = require("./showcase/showcase.11tydata.js");
+// const standaloneElements = require("./standalone-elements/standalone-elements.11tydata.js");
 const stylingOptions = require("./styling-options/styling-options.11tydata.js");
 // const testAutomation = require("./test-automation/test-automation.11tydata.js");
 
@@ -45,6 +46,7 @@ module.exports = {
     ...shadowDOM.items,
     ...shadowParts.items,
     // ...showcase.items,
+    //   ...standaloneElements.items,
     ...stylingOptions.items,
     //   ...testAutomation.items,
   ].sort((a, b) => {
