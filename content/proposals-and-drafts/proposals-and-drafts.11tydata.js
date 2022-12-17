@@ -23,11 +23,17 @@ module.exports = {
         "Experimental way to implement and use Shadow DOM directly in HTML, enabling Server-Side Rendering support.",
     },
     {
-      url: "https://open-wc.org/docs/development/scoped-elements/",
-      title: "Scoped Elements",
-      thumbnail: "open-wc.png",
+      url: "https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md",
+      title: "Scoped Custom Element Registries",
+      thumbnail: "wicg.png",
       quote:
-        "Experimental Lit mixin to support using multiple different versions of the same web component on the page.",
+        "This proposal allows for multiple custom element definitions for a single tag name to exist within a page.",
+    },
+    {
+      url: "https://www.dannymoerkerke.com/blog/the-hidden-power-of-custom-states-for-web-components/",
+      title: "The Hidden Power of Custom States For Web Components",
+      thumbnail: "danny-moerkerke.png",
+      quote: "ElementInternals interface enables developers to associate custom states with Custom Elements.",
     },
     {
       url: "https://dev.to/steveblue/the-state-of-web-components-in-2022-1ip3",
@@ -65,6 +71,13 @@ module.exports = {
       title: "Web Components Community Group: 2022 Spec/API status",
       thumbnail: "wc-cg.svg",
       quote: "Yearly update on the lacking web components features that block adoption or cause pain points.",
+    },
+    {
+      url: "https://github.com/WebKit/standards-positions/labels/topic%3A%20web%20components",
+      title: "WebKit Standards Positions",
+      thumbnail: "webkit.png",
+      quote:
+        "Repository used by the WebKit Open Source Project to come to consensus on various Web standards proposals.",
     },
   ],
 };

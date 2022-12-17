@@ -10,6 +10,12 @@ module.exports = {
       quote: "A polyfill for the constructible style sheets / adopted style sheets spec.",
     },
     {
+      url: "https://github.com/vegarringdal/custom-elements-hmr-polyfill",
+      title: "Custom Elements HMR Polyfill",
+      thumbnail: "github.svg",
+      quote: "100% standard-compliant polyfill to allow Web Component re-definition at runtime (used for HMR).",
+    },
+    {
       url: "https://github.com/ungap/custom-elements",
       title: "Custom Elements Polyfill",
       thumbnail: "github.svg",
@@ -38,6 +44,13 @@ module.exports = {
       title: "Polyfills Loader",
       thumbnail: "modern-web.svg",
       quote: "Manage loading polyfills and/or serving different versions of your application based on browser support.",
+    },
+    {
+      url: "https://open-wc.org/docs/development/scoped-elements/",
+      title: "Scoped Elements",
+      thumbnail: "open-wc.png",
+      quote:
+        "Experimental Lit mixin to support using multiple different versions of the same web component on the page.",
     },
     {
       url: "https://github.com/github/template-parts",
