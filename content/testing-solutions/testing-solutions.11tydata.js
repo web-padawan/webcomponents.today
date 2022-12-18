@@ -1,6 +1,6 @@
 module.exports = {
-  url: "test-automation",
-  header: "Test Automation",
+  url: "testing-solutions",
+  header: "Testing Solutions",
   description: "Testing web components and using built-in support for Shadow DOM in test automation tools.",
   items: [
     {
