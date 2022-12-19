@@ -18,7 +18,7 @@ const polyfillsAndShims = require("./polyfills-and-shims/polyfills-and-shims.11t
 const proposalsAndDrafts = require("./proposals-and-drafts/proposals-and-drafts.11tydata.js");
 const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
 const shadowParts = require("./shadow-parts/shadow-parts.11tydata.js");
-// const showcase = require("./showcase/showcase.11tydata.js");
+const showcase = require("./showcase/showcase.11tydata.js");
 // const standaloneElements = require("./standalone-elements/standalone-elements.11tydata.js");
 const stylingOptions = require("./styling-options/styling-options.11tydata.js");
 const testingSolutions = require("./testing-solutions/testing-solutions.11tydata.js");
@@ -45,7 +45,7 @@ module.exports = {
     ...proposalsAndDrafts.items,
     ...shadowDOM.items,
     ...shadowParts.items,
-    // ...showcase.items,
+    ...showcase.items,
     //   ...standaloneElements.items,
     ...stylingOptions.items,
     ...testingSolutions.items,
