@@ -67,6 +67,12 @@ module.exports = {
       quote: "A new performance-focused way to add interactive client-side components to your web site.",
     },
     {
+      url: "https://github.com/alenaksu/json-viewer",
+      title: "<json-viewer>",
+      thumbnail: "json-viewer.png",
+      quote: "Web Component to visualize JSON data in a tree view, built with Lit library.",
+    },
+    {
       url: "https://github.com/paulirish/lite-youtube-embed",
       title: "<lite-youtube-embed>",
       thumbnail: "paul-irish.jpeg",
@@ -90,12 +96,18 @@ module.exports = {
       thumbnail: "alphagov.png",
       quote: "Miller columns (cascading lists) web component for hierarchical topic selection on GOV.UK.",
     },
-
     {
       url: "https://modelviewer.dev",
       title: "<model-viewer>",
       thumbnail: "model-viewer.svg",
       quote: "A web component to display interactive 3D models on the web & in AR.",
+    },
+    {
+      url: "https://social-embed.git-pull.com/docs/wc/",
+      title: "<o-embed>",
+      thumbnail: "o-embed.png",
+      quote:
+        "Web component to automatically switch out tags with oEmbed-compatible social websites. Build with Lit library.",
     },
     {
       url: "https://github.com/luwes/playerx",
@@ -115,6 +127,18 @@ module.exports = {
       thumbnail: "range-slider.png",
       quote:
         "Accessible range slider custom element with keyboard support. Follows the ARIA best practices guide on sliders.",
+    },
+    {
+      url: "https://github.com/rapi-doc/RapiDoc",
+      title: "<rapi-doc>",
+      thumbnail: "rapi-doc.png",
+      quote: "Custom Element for Open-API spec viewing, built with Lit library.",
+    },
+    {
+      url: "https://github.com/mahozad/theme-switch",
+      title: "<theme-switch>",
+      thumbnail: "theme-switch.svg",
+      quote: "An animated custom HTML element which toggles between light theme, dark theme, and OS theme.",
     },
     {
       url: "https://trix-editor.org",
