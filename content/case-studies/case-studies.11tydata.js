@@ -17,6 +17,12 @@ module.exports = {
       quote: "This has been a really fun project to work on, forcing us to tackle a lot of interesting challenges.",
     },
     {
+      url: "https://medium.com/stories-from-upstatement/building-custom-elements-with-web-components-for-the-2020-elections-f767ff9e9c6a",
+      title: "Building Custom Elements with Web Components for the 2020 Elections",
+      thumbnail: "medium.svg",
+      quote: "PBS NewsHour needed us to build some graphics and charts that had to be easily dropped onto any website.",
+    },
+    {
       url: "https://www.mux.com/blog/slow-is-stable-stable-is-fast-building-mux-player-on-the-slow-platform-of-web-components",
       title: "Building Mux Player on the “slow” platform of web components",
       thumbnail: "mux.png",
@@ -63,6 +69,12 @@ module.exports = {
       quote: "Instead of picking a monolithic solution like a web framework, you just pick the pieces you need.",
     },
     {
+      url: "https://web.dev/ps-on-the-web/#web-components-and-lit",
+      title: "Photoshop's journey to the web",
+      thumbnail: "webdev.png",
+      quote: "Photoshop's UI elements come from Adobe's Spectrum Web Components based on the Adobe design system.",
+    },
+    {
       url: "https://medium.com/@banked/shipping-web-components-in-2020-ff387c44e1a4",
       title: "Shipping Web Components in 2020",
       thumbnail: "medium.svg",
@@ -87,6 +99,19 @@ module.exports = {
       thumbnail: "infoq.png",
       quote:
         "Albeit with missing pieces, the Web Components standard was instrumental to achieve Salesforce’s interoperability.",
+    },
+    {
+      url: "https://dev.to/webpadawan/web-components-for-enterprise-part-1-salesforce-oracle-sap-e70",
+      title: "Web Components for Enterprise. Part 1: Salesforce, Oracle, SAP",
+      thumbnail: "devto.png",
+      quote:
+        "Web Components are now experiencing rapid growth in the most inert part of the industry: enterprise UI development.",
+    },
+    {
+      url: "https://dev.to/webpadawan/web-components-for-enterprise-part-2-nuxeo-ionic-vaadin-22l7",
+      title: "Web Components for Enterprise. Part 2: Nuxeo, Ionic, Vaadin",
+      thumbnail: "devto.png",
+      quote: "Overview of UI development platforms targeting mostly corporate customers built using Web Components.",
     },
     {
       url: "https://web.dev/how-we-build-webdev-and-use-web-components/",
