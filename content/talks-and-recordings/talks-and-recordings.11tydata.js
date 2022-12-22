@@ -1,0 +1,103 @@
+module.exports = {
+  url: "talks-and-recordings",
+  header: "Talks and Recordings",
+  description: "Talks, recordings and workshops related to Web Components presented at various conferences.",
+  items: [
+    {
+      url: "https://www.youtube.com/watch?v=MS7y2K7tZto&t=1620s",
+      title: "After the new Hawtness",
+      thumbnail: "webcomponents-sf.jpeg",
+      quote: "A talk by Westbrook Johnson at Web Components SF virtual meetup, 2020.",
+    },
+    {
+      url: "https://www.microsoft.com/en-us/research/video/better-apps-delivering-universal-ui-patterns-as-web-components/",
+      title: "Better Apps: Delivering Universal UI Patterns as Web Components",
+      thumbnail: "microsoft.png",
+      quote: "A talk by Jan Miksovsky at Microsoft Research Lab, Redmond, 2019.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=oy1hiAO5Cl0",
+      title: "Avoiding vendor lock-in through Web Components",
+      thumbnail: "react-finland.jpeg",
+      quote: "A talk by Matius ”Matsu” Huhta from Simplr at React Finland, 2022.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=kAD7qKwuJFo&t=17511s",
+      title: "Create a design system with Lion web components",
+      thumbnail: "simplewebconf.png",
+      quote: "A talk by Mathieu Puech from Ubisoft at SimpleWebConf, 2021.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=V2yjXFPYjVA",
+      title: "Faster content websites via SSR and Web Components",
+      thumbnail: "react-finland.jpeg",
+      quote: "A talk by Thomas Allmer from ING at React Finland, 2022.",
+    },
+    {
+      url: "https://daverupert.com/2021/10/html-with-superpowers/",
+      title: "HTML with Superpowers",
+      thumbnail: "dave-rupert.png",
+      quote: "A talk by Dave Rupert at An Event Apart’s Spring Summit, 2021.",
+    },
+    {
+      url: "https://speaking.mishunov.me/SfkHLg",
+      title: "I built a Frankenstein Monster: 3 stories of migration",
+      thumbnail: "smashing.svg",
+      quote: "A talk by Denis Mishunov from GitLab at SmashingConf NYC, 2019.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=kAD7qKwuJFo&t=2030s",
+      title: "Introducing FAST",
+      thumbnail: "simplewebconf.png",
+      quote: "A talk by Rob Eisenberg from Microsoft at SimpleWebConf, 2021.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=ZMZMMuXRFcE",
+      title: "Web Components and the AOM",
+      thumbnail: "jsconf.png",
+      quote: "A talk by Léonie Watson, director of TetraLogical at JSConf.Asia, 2019.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=iFp-P2UJT_Y",
+      title: "Web Components at Enterprise Scale",
+      thumbnail: "webcomponents-sf.jpeg",
+      quote: "A talk by Diego Ferreiro Val at Web Components SF meetup, 2019.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=MS7y2K7tZto&t=344s",
+      title: "Web Components at GitHub",
+      thumbnail: "webcomponents-sf.jpeg",
+      quote: "A talk by Kristján Oddsson at Web Components SF virtual meetup, 2020.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=vCE6Rj5f5w8",
+      title: "Web Components in an Era of Information & Experience",
+      thumbnail: "webcomponents-sf.jpeg",
+      quote: "A talk by Tsavo Knott from Pieces.app at Web Components SF meetup, 2020.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=fgtS_nfMOtw",
+      title: "Web Components in React",
+      thumbnail: "react-finland.jpeg",
+      quote: "A demo by Matius ”Matsu” Huhta from Simplr at React Finland, 2022.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=pgVDAmi7onA",
+      title: "Web Components In Space",
+      thumbnail: "webcomponents-sf.jpeg",
+      quote: "A talk by Ben Farrell from Adobe Design at Web Components SF meetup, 2020.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=FM7ROEVPA4k",
+      title: "Web Component Styling & Theming",
+      thumbnail: "webcomponents-sf.jpeg",
+      quote: "A talk by Justin Fagnani from Lit team at Web Components SF meetup, 2019.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=eSILtbWYrNc",
+      title: "What Would You Do Without a Framework? Front-End Anew with Lit",
+      thumbnail: "dev-days.png",
+      quote: "A talk by Adam Bar, creator of What Web Can Do at DevDays Europe, 2019.",
+    },
+  ],
+};

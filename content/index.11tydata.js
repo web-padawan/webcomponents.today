@@ -21,6 +21,7 @@ const shadowParts = require("./shadow-parts/shadow-parts.11tydata.js");
 const showcase = require("./showcase/showcase.11tydata.js");
 const standaloneElements = require("./standalone-elements/standalone-elements.11tydata.js");
 const stylingOptions = require("./styling-options/styling-options.11tydata.js");
+const talksAndRecordings = require("./talks-and-recordings/talks-and-recordings.11tydata.js");
 const testingSolutions = require("./testing-solutions/testing-solutions.11tydata.js");
 
 module.exports = {
@@ -48,6 +49,7 @@ module.exports = {
     ...showcase.items,
     ...standaloneElements.items,
     ...stylingOptions.items,
+    ...talksAndRecordings.items,
     ...testingSolutions.items,
   ].sort((a, b) => {
     const textA = a.title.toUpperCase();
