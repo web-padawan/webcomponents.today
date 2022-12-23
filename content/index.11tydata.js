@@ -20,6 +20,7 @@ const shadowDOM = require("./shadow-dom/shadow-dom.11tydata.js");
 const shadowParts = require("./shadow-parts/shadow-parts.11tydata.js");
 const showcase = require("./showcase/showcase.11tydata.js");
 const standaloneElements = require("./standalone-elements/standalone-elements.11tydata.js");
+const starterTemplates = require("./starter-templates/starter-templates.11tydata.js");
 const stylingOptions = require("./styling-options/styling-options.11tydata.js");
 const talksAndRecordings = require("./talks-and-recordings/talks-and-recordings.11tydata.js");
 const testingSolutions = require("./testing-solutions/testing-solutions.11tydata.js");
@@ -48,6 +49,7 @@ module.exports = {
     ...shadowParts.items,
     ...showcase.items,
     ...standaloneElements.items,
+    ...starterTemplates.items,
     ...stylingOptions.items,
     ...talksAndRecordings.items,
     ...testingSolutions.items,
