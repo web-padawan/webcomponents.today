@@ -86,7 +86,7 @@ a:hover {
   background-color: var(--header-background);
 }
 
-.header__link {
+.header__home {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -112,18 +112,19 @@ a:hover {
 
 .header__copy {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   margin-left: auto;
   font-size: 1rem;
+  line-height: 1.75;
   color: var(--content-color);
 }
 
-.header__author {
-  margin-left: 4px;
+.header__link {
   text-decoration: none;
 }
 
-.header__author:hover {
+.header__link:hover {
   text-decoration: underline;
 }
 
@@ -398,6 +399,7 @@ a:hover {
 
   .header__copy {
     margin: 1rem 0 0;
+    align-items: center;
   }
 
   .main__grid {
