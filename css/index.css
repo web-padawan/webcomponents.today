@@ -149,14 +149,6 @@ a:hover {
   flex: 0 0 auto;
 }
 
-.sidebar__title {
-  margin: 0 0 1.5rem;
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 2.125rem;
-  color: var(--title-color);
-}
-
 /* nav */
 .nav {
   width: 100%;
@@ -357,10 +349,6 @@ a:hover {
     padding-bottom: 1.25rem;
     padding-left: 1.5rem;
     border-bottom: 1px solid var(--sidebar-border-color);
-  }
-
-  .sidebar__title {
-    margin: 0 0 1rem;
   }
 
   .nav__item--toggle,
