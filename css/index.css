@@ -305,6 +305,14 @@ a:hover {
   font-size: 1rem;
 }
 
+.main__contribute {
+  display: block;
+  margin: 1.5rem auto;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 /* item */
 .item {
   display: block;

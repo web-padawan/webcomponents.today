@@ -95,6 +95,14 @@
               </a>
             {% endfor -%}
             </div>
+            {%- if header %}
+              <a
+                class="main__contribute"
+                href="https://github.com/web-padawan/web-components-bookmarks/edit/master/content/{{ page.fileSlug }}/{{ page.fileSlug }}.11tydata.js"
+              >
+                Edit this page on GitHub
+              </a>
+            {%- endif %}
           {%- endif %}
             <div class="main__content">{{ content | safe }}</div>
           </main>
