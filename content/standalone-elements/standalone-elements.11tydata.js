@@ -165,5 +165,17 @@ module.exports = {
       thumbnail: "zero-md.png",
       quote: "A web component to load and display an external MD file. Uses Marked and Prism libraries under the hood.",
     },
+    {
+      url: "https://github.com/node-projects/gauge.webcomponent/",
+      title: "@node-projects/gauge.webcomponent",
+      thumbnail: "node-projects.png",
+      quote: "A collection of a few gauge libraries, converted to webcomponents",
+    },
+    {
+      url: "https://github.com/node-projects/tab.webcomponent/",
+      title: "@node-projects/tab.webcomponent",
+      thumbnail: "node-projects.png",
+      quote: "A simple tab-control webcomponent",
+    },
   ],
 };
