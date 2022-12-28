@@ -144,7 +144,7 @@ module.exports = {
       url: "https://github.com/node-projects/tab.webcomponent",
       title: "tab.webcomponent",
       thumbnail: "node-projects.png",
-      quote: "A simple tab-control webcomponent.",
+      quote: "A simple tab-control web component.",
     },
     {
       url: "https://github.com/mahozad/theme-switch",
