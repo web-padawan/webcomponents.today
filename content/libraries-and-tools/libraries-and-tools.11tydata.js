@@ -125,5 +125,11 @@ module.exports = {
       thumbnail: "webcomponents-dev.svg",
       quote: "Online IDE for building and publishing web components.",
     },
+    {
+      url: "https://github.com/node-projects/base-custom-webcomponent",
+      title: "@node-projects/base-custom-webcomponent",
+      thumbnail: "node-projects.png",
+      quote: "A simple small basic webcomponent library. Binding support, template syntax.",
+    },
   ],
 };
