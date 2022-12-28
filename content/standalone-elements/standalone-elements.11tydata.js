@@ -49,6 +49,12 @@ module.exports = {
       quote: "A zero-dependency web component to filter visible child elements based on form field values.",
     },
     {
+      url: "https://github.com/node-projects/gauge.webcomponent",
+      title: "gauge.webcomponent",
+      thumbnail: "node-projects.png",
+      quote: "A collection of a few gauge libraries, converted to web components.",
+    },
+    {
       url: "https://image-compare-component.netlify.app",
       title: "<image-compare>",
       thumbnail: "cloudfour.svg",
@@ -133,6 +139,12 @@ module.exports = {
       title: "<rapi-doc>",
       thumbnail: "rapi-doc.png",
       quote: "Custom Element for Open-API spec viewing, built with Lit library.",
+    },
+    {
+      url: "https://github.com/node-projects/tab.webcomponent",
+      title: "tab.webcomponent",
+      thumbnail: "node-projects.png",
+      quote: "A simple tab-control web component.",
     },
     {
       url: "https://github.com/mahozad/theme-switch",
