@@ -16,6 +16,12 @@ module.exports = {
       quote: "A library for creating web components with React-inspired syntax.",
     },
     {
+      url: "https://github.com/node-projects/base-custom-webcomponent",
+      title: "base-custom-webcomponent",
+      thumbnail: "node-projects.png",
+      quote: "A simple base class for creating Web Components in TypeScript with custom template and bindings syntax.",
+    },
+    {
       url: "https://catalyst.rocks",
       title: "Catalyst",
       thumbnail: "catalyst.png",
@@ -114,6 +120,12 @@ module.exports = {
       quote: "Compiler to make server-side rendering of native web components easier.",
     },
     {
+      url: "https://github.com/node-projects/web-component-designer",
+      title: "web-component-designer",
+      thumbnail: "node-projects.png",
+      quote: "WYSIWYG tool for creating web components or HTML pages.",
+    },
+    {
       url: "https://github.com/11ty/webc",
       title: "WebC",
       thumbnail: "webc.png",
@@ -124,12 +136,6 @@ module.exports = {
       title: "WebComponents.dev",
       thumbnail: "webcomponents-dev.svg",
       quote: "Online IDE for building and publishing web components.",
-    },
-    {
-      url: "https://github.com/node-projects/base-custom-webcomponent",
-      title: "@node-projects/base-custom-webcomponent",
-      thumbnail: "node-projects.png",
-      quote: "A simple small basic webcomponent library. Binding support, template syntax.",
     },
   ],
 };
