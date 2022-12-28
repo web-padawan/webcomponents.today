@@ -52,7 +52,7 @@ module.exports = {
       url: "https://github.com/node-projects/gauge.webcomponent",
       title: "gauge.webcomponent",
       thumbnail: "node-projects.png",
-      quote: "A collection of a few gauge libraries, converted to webcomponents",
+      quote: "A collection of a few gauge libraries, converted to web components.",
     },
     {
       url: "https://image-compare-component.netlify.app",
@@ -144,7 +144,7 @@ module.exports = {
       url: "https://github.com/node-projects/tab.webcomponent",
       title: "tab.webcomponent",
       thumbnail: "node-projects.png",
-      quote: "A simple tab-control webcomponent",
+      quote: "A simple tab-control webcomponent.",
     },
     {
       url: "https://github.com/mahozad/theme-switch",
