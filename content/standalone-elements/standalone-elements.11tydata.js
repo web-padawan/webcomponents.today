@@ -103,6 +103,18 @@ module.exports = {
       quote: "A web component to display interactive 3D models on the web & in AR.",
     },
     {
+      url: "https://github.com/node-projects/gauge.webcomponent",
+      title: "@node-projects/gauge.webcomponent",
+      thumbnail: "node-projects.png",
+      quote: "A collection of a few gauge libraries, converted to webcomponents",
+    },
+    {
+      url: "https://github.com/node-projects/tab.webcomponent",
+      title: "@node-projects/tab.webcomponent",
+      thumbnail: "node-projects.png",
+      quote: "A simple tab-control webcomponent",
+    },
+    {
       url: "https://social-embed.git-pull.com/docs/wc/",
       title: "<o-embed>",
       thumbnail: "o-embed.png",
@@ -164,18 +176,6 @@ module.exports = {
       title: "<zero-md>",
       thumbnail: "zero-md.png",
       quote: "A web component to load and display an external MD file. Uses Marked and Prism libraries under the hood.",
-    },
-    {
-      url: "https://github.com/node-projects/gauge.webcomponent/",
-      title: "@node-projects/gauge.webcomponent",
-      thumbnail: "node-projects.png",
-      quote: "A collection of a few gauge libraries, converted to webcomponents",
-    },
-    {
-      url: "https://github.com/node-projects/tab.webcomponent/",
-      title: "@node-projects/tab.webcomponent",
-      thumbnail: "node-projects.png",
-      quote: "A simple tab-control webcomponent",
     },
   ],
 };
