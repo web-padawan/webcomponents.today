@@ -3,6 +3,9 @@ tags: post
 title: Introduction
 layout: layout
 templateEngineOverride: md
+eleventyNavigation:
+  key: Introduction
+  order: 1
 ---
 
 Welcome to **Web Components bookmarks** — the curated collection of up-to-date Web Components guides
