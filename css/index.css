@@ -270,6 +270,15 @@ a:hover {
 }
 
 /* main */
+.main ul {
+  margin: 1.5rem 0;
+  padding-inline-start: 2.25rem;
+}
+
+.main ul li {
+  margin-bottom: 0.5rem;
+}
+
 .main__title {
   margin: 0 0 1rem;
   font-size: 3rem;

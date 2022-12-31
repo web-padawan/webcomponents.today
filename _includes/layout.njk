@@ -63,11 +63,8 @@
                 <li class="nav__item nav__item--toggle">
                   <span class="nav__link"></span>
                 </li>
-                <li class="nav__item{% if '/intro/' == page.url %} nav__item--active{% endif %}">
-                  <a class="nav__link" href="/intro/">Introduction</a>
-                </li>
                 <li class="nav__item{% if '/' == page.url %} nav__item--active{% endif %}">
-                  <a class="nav__link" href="/">All resources</a>
+                  <a class="nav__link" href="/">2022 in Review</a>
                 </li>
               {%- for entry in navPages %}
                 <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
@@ -103,6 +100,14 @@
                 Edit this page on GitHub
               </a>
             {%- endif %}
+          {%- endif %}
+          {% if '/' == page.url %}
+            {% set postslist = collections.post %}
+            {%- if postslist[1].data.header %}
+              <h2 class="main__title">{{ postslist[1].data.header }}</h2>
+              <p class="main__date">{{ postslist[1].data.date }}</p>
+            {%- endif %}
+            <div class="main__content">{{ postslist[1].templateContent | safe }}</div>
           {%- endif %}
             <div class="main__content">{{ content | safe }}</div>
           </main>
