@@ -28,6 +28,12 @@ module.exports = {
       quote: "A set of patterns and techniques for developing components within a complex application.",
     },
     {
+      url: "https://github.com/open-wc/locator",
+      title: "Custom Elements Locator",
+      thumbnail: "ce-locator.png",
+      quote: "Chrome extension to find custom elements used on a page.",
+    },
+    {
       url: "https://www.chialab.io/dna",
       title: "DNA",
       thumbnail: "dna.svg",
@@ -112,6 +118,12 @@ module.exports = {
       title: "Tonic",
       thumbnail: "tonic.svg",
       quote: "A low profile component framework based on web components.",
+    },
+    {
+      url: "https://matsuuu.github.io/web-component-devtools/",
+      title: "Web Component DevTools",
+      thumbnail: "wc-devtools.png",
+      quote: "Browser extension enhancing the developer experience of Web Component developers.",
     },
     {
       url: "https://github.com/ProjectEvergreen/wcc",
