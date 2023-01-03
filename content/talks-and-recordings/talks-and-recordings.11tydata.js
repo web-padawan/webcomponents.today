@@ -4,6 +4,12 @@ module.exports = {
   description: "Talks, recordings and workshops related to Web Components presented at various conferences.",
   items: [
     {
+      url: "https://www.youtube.com/watch?v=mz1yL4HJhAA&t=16s",
+      title: "Are Web Components the Betamax of Web Development?",
+      thumbnail: "codemotion.png",
+      quote: "A talk by Horacio Gonzalez from OVH at Codemotion Madrid, 2019.",
+    },
+    {
       url: "https://www.youtube.com/watch?v=MS7y2K7tZto&t=1620s",
       title: "After the new Hawtness",
       thumbnail: "webcomponents-sf.jpeg",
@@ -34,6 +40,18 @@ module.exports = {
       quote: "A talk by Thomas Allmer from ING at React Finland, 2022.",
     },
     {
+      url: "https://www.youtube.com/watch?v=BOiJVfTD8F0&t=20s",
+      title: "Flaws of the Web Components in 2019 and how to address them",
+      thumbnail: "kharkivjs.png",
+      quote: "A talk by Vladlen Fedosov from Namecheap at KharkivJS, 2019.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=Jz4U3xxwENE",
+      title: "Frontend Architecture for Scalable Design Systems",
+      thumbnail: "drupalcon.svg",
+      quote: "A talk by Salem Ghoweri from Pega at DrupalCon Seattle, 2019.",
+    },
+    {
       url: "https://daverupert.com/2021/10/html-with-superpowers/",
       title: "HTML with Superpowers",
       thumbnail: "dave-rupert.png",
@@ -50,6 +68,12 @@ module.exports = {
       title: "Introducing FAST",
       thumbnail: "simplewebconf.png",
       quote: "A talk by Rob Eisenberg from Microsoft at SimpleWebConf, 2021.",
+    },
+    {
+      url: "https://www.youtube.com/watch?v=Q_DAn3EvYvY",
+      title: "Modernizing Large Frontends with Web Components",
+      thumbnail: "ndc-conf.png",
+      quote: "A talk by Sam Julien from Auth0 at NDC London, 2020.",
     },
     {
       url: "https://www.youtube.com/watch?v=ZMZMMuXRFcE",
