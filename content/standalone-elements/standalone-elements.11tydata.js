@@ -17,6 +17,12 @@ module.exports = {
         "A chess board custom element that works anywhere HTML works. Fork of the wonderful chessboard.js library.",
     },
     {
+      url: "https://github.com/heppokofrontend/html-code-block-element",
+      title: "<code-block>",
+      thumbnail: "code-block.png",
+      quote: "Code block custom element with syntax highlighting and copy button, powered by highlight.js library.",
+    },
+    {
       url: "https://css-doodle.com",
       title: "<css-doodle>",
       thumbnail: "css-doodle.png",
@@ -34,6 +40,12 @@ module.exports = {
       title: "<emoji-picker>",
       thumbnail: "emoji-picker.png",
       quote: "A lightweight emoji picker, distributed as a web component. Supports Emoji v14.0 and custom emoji.",
+    },
+    {
+      url: "https://github.com/jf990/esri-map-component",
+      title: "<esri-map-view>",
+      thumbnail: "esri-map-view.jpeg",
+      quote: "Custom HTML component to place a map on any web page, powered by the ArcGIS API for JavaScript.",
     },
     {
       url: "https://github.com/GoogleChromeLabs/file-drop",
@@ -83,6 +95,12 @@ module.exports = {
       title: "<lite-youtube-embed>",
       thumbnail: "paul-irish.jpeg",
       quote: "A custom element that provide videos with a supercharged focus on visual performance.",
+    },
+    {
+      url: "https://github.com/Maps4HTML/Web-Map-Custom-Element",
+      title: "<mapml-viewer>",
+      thumbnail: "maps4html.png",
+      quote: "Prototype implementation of the <map> media element defined in the MapML specification.",
     },
     {
       url: "https://github.com/arnog/mathlive",
@@ -139,6 +157,12 @@ module.exports = {
       title: "<rapi-doc>",
       thumbnail: "rapi-doc.png",
       quote: "Custom Element for Open-API spec viewing, built with Lit library.",
+    },
+    {
+      url: "https://github.com/mskocik/svelecte",
+      title: "Svelecte",
+      thumbnail: "svelecte.png",
+      quote: "Selectize-like component written in Svelte, usable as custom element.",
     },
     {
       url: "https://github.com/node-projects/tab.webcomponent",
