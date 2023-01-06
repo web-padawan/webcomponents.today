@@ -10,10 +10,22 @@ module.exports = {
       quote: "How to run component tests for a Lit web component with Cypress.",
     },
     {
+      url: "https://github.com/simonireilly/cypress-lit",
+      title: "cypress-lit",
+      thumbnail: "simon-reilly.jpeg",
+      quote: "Test your Lit elements and native web components in Cypress with all the modern browsers.",
+    },
+    {
       url: "https://open-wc.org/guides/developing-components/testing/",
       title: "Developing Components: Testing",
       thumbnail: "open-wc.png",
       quote: "Using @web/test-runner for testing web components in a real browser.",
+    },
+    {
+      url: "https://github.com/webdriverio/query-selector-shadow-dom",
+      title: "query-selector-shadow-dom",
+      thumbnail: "wdio.png",
+      quote: "Pierce Shadow DOM roots without knowing the path through nested shadow roots for automated testing.",
     },
     {
       url: "https://www.lambdatest.com/blog/shadow-dom-in-selenium/",
@@ -32,6 +44,18 @@ module.exports = {
       title: "Open Web Components: Testing",
       thumbnail: "open-wc.png",
       quote: "Opinionated package that combines and configures testing libraries.",
+    },
+    {
+      url: "https://github.com/yuki24/capybara-shadowdom",
+      title: "Shadow DOM support for Capybara",
+      thumbnail: "yuki-nishijima.jpeg",
+      quote: "The capybara-shadowdom gem adds basic support for the Shadow DOM to Capybara.",
+    },
+    {
+      url: "https://github.com/sukgu/shadow-automation-selenium",
+      title: "Shadow root DOM automation using Selenium",
+      thumbnail: "sukgu.png",
+      quote: "Plugin for automation of multi-level shadow DOM using Java Selenium.",
     },
     {
       url: "https://reflect.run/articles/testing-shadow-dom-elements-in-selenium/",
