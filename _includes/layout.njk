@@ -57,21 +57,74 @@
         <div class="content__wrapper">
           <aside class="sidebar">
             <div class="sidebar__wrapper">
-              {%- set navPages = collections.all | eleventyNavigation %}
-              <input type="checkbox" class="nav__checkbox" />
-              <ul class="nav">
-                <li class="nav__item nav__item--toggle">
-                  <span class="nav__link"></span>
-                </li>
-                <li class="nav__item{% if '/' == page.url %} nav__item--active{% endif %}">
-                  <a class="nav__link" href="/">2022 in Review</a>
-                </li>
-              {%- for entry in navPages %}
-                <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
-                  <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
-                </li>
-              {%- endfor %}
-              </ul>
+              <div class="sidebar__group">
+                <h3 class="sidebar__title">About the Project</h3>
+                <ul class="nav">
+                {%- for entry in collections.post | eleventyNavigation %}
+                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
+                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  </li>
+                {%- endfor %}
+                  <li class="nav__item{% if '/' == page.url %} nav__item--active{% endif %}">
+                    <a class="nav__link" href="/">2022 in Review</a>
+                  </li>
+                </ul>
+              </div>
+              <input type="checkbox" class="sidebar__checkbox" />
+              <div class="sidebar__group">
+                <h3 class="sidebar__title">Fundamentals</h3>
+                <ul class="nav">
+                {%- for entry in collections.fundamentals | eleventyNavigation %}
+                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
+                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  </li>
+                {%- endfor %}
+                </ul>
+              </div>
+              <input type="checkbox" class="sidebar__checkbox" />
+              <div class="sidebar__group">
+                <h3 class="sidebar__title">Standards</h3>
+                <ul class="nav">
+                {%- for entry in collections.standards | eleventyNavigation %}
+                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
+                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  </li>
+                {%- endfor %}
+                </ul>
+              </div>
+              <input type="checkbox" class="sidebar__checkbox" />
+              <div class="sidebar__group">
+                <h3 class="sidebar__title">Ecosystem</h3>
+                <ul class="nav">
+                {%- for entry in collections.ecosystem | eleventyNavigation %}
+                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
+                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  </li>
+                {%- endfor %}
+                </ul>
+              </div>
+              <input type="checkbox" class="sidebar__checkbox" />
+              <div class="sidebar__group">
+                <h3 class="sidebar__title">Articles</h3>
+                <ul class="nav">
+                {%- for entry in collections.articles | eleventyNavigation %}
+                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
+                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  </li>
+                {%- endfor %}
+                </ul>
+              </div>
+              <input type="checkbox" class="sidebar__checkbox" />
+              <div class="sidebar__group">
+                <h3 class="sidebar__title">Community</h3>
+                <ul class="nav">
+                {%- for entry in collections.community | eleventyNavigation %}
+                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
+                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  </li>
+                {%- endfor %}
+                </ul>
+              </div>
             </div>
           </aside>
           <main class="main">
