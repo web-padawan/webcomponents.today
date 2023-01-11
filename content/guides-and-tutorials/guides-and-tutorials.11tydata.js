@@ -4,13 +4,6 @@ module.exports = {
   description: "Creating web components using vanilla JS or different libraries, handling data and state.",
   items: [
     {
-      url: "https://css-tricks.com/creating-a-custom-element-from-scratch/",
-      title: "Creating a Custom Element from Scratch",
-      thumbnail: "css-tricks.svg",
-      quote:
-        "This article describes how to create a custom modal dialog from the ground up using a <template> element.",
-    },
-    {
       url: "https://auth0.com/blog/creating-web-components-with-stencil/",
       title: "Creating Web Components with Stencil",
       thumbnail: "auth0.png",
@@ -71,25 +64,6 @@ module.exports = {
       title: "Web Components 101: Lit framework",
       thumbnail: "coderpad.png",
       quote: "How using Lit library can help to simplify web component development.",
-    },
-    {
-      url: "https://dev.to/thepassle/web-components-from-zero-to-hero-4n4m",
-      title: "Web Components: from zero to hero",
-      thumbnail: "devto.png",
-      quote: "This blogpost is intended to get a better grasp of the basics of web components.",
-    },
-    {
-      url: "https://dev.to/alangdm/where-to-begin-building-web-components-the-basics-3b78",
-      title: "Where to begin building Web Components? - The Basics",
-      thumbnail: "devto.png",
-      quote:
-        "For anyone trying to begin building Web Components just even finding out where to start is pretty difficult.",
-    },
-    {
-      url: "https://dev.to/alangdm/where-to-begin-building-web-components-class-based-libraries-18m6",
-      title: "Where to begin building Web Components? - Class-based Libraries",
-      thumbnail: "devto.png",
-      quote: "The class-based pattern is commonly used by Web Components libraries.",
     },
   ],
 };
