@@ -52,10 +52,22 @@ module.exports = {
       quote: "The capybara-shadowdom gem adds basic support for the Shadow DOM to Capybara.",
     },
     {
+      url: "https://docs.percy.io/docs/shadow-dom",
+      title: "Shadow DOM support in Percy",
+      thumbnail: "percy.png",
+      quote: "Percy supports capturing Shadow DOM since Percy CLI v1.19.1-alpha.0 version.",
+    },
+    {
       url: "https://github.com/sukgu/shadow-automation-selenium",
       title: "Shadow root DOM automation using Selenium",
       thumbnail: "sukgu.png",
       quote: "Plugin for automation of multi-level shadow DOM using Java Selenium.",
+    },
+    {
+      url: "https://github.com/43081j/shadow-dom-utils",
+      title: "shadow-dom-utils",
+      thumbnail: "james-garbutt.jpeg",
+      quote: "A set of utilities for dealing with shadow DOM, primarily for test environment.",
     },
     {
       url: "https://reflect.run/articles/testing-shadow-dom-elements-in-selenium/",
