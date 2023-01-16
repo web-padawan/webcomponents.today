@@ -72,6 +72,20 @@ module.exports = {
         "Export your existing project components as custom elements with shadow DOM for integration into external pages.",
     },
     {
+      url: "https://github.com/Wildhoney/ReactShadow",
+      title: "React Shadow",
+      thumbnail: "react-shadow.png",
+      quote:
+        "Utilize Shadow DOM in React with all the benefits of native style encapsulation. Supports React 16.8 or later.",
+    },
+    {
+      url: "https://github.com/rstacruz/remount",
+      title: "Remount",
+      thumbnail: "remount.png",
+      quote:
+        "Mount React components to the DOM using Custom Elements to use anywhere in your HTML. React 18 is required.",
+    },
+    {
       url: "https://www.colorglare.com/svelte-components-as-web-components-b400d1253504",
       title: "Svelte Components as Web Components",
       thumbnail: "medium.svg",
