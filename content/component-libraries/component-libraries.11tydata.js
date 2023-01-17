@@ -89,7 +89,7 @@ module.exports = {
     },
     {
       url: "https://joomla-projects.github.io/custom-elements/",
-      title: "Joomla UI Componens",
+      title: "Joomla UI Components",
       thumbnail: "joomla.png",
       quote: "Collection of framework agnostic UI components used in the Joomla CMS.",
     },
