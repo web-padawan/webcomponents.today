@@ -64,6 +64,12 @@ module.exports = {
       quote: "Plugin for automation of multi-level shadow DOM using Java Selenium.",
     },
     {
+      url: "https://github.com/KonnorRogers/shadow-dom-testing-library",
+      title: "shadow-dom-testing-library",
+      thumbnail: "konnor-rogers.jpeg",
+      quote: "An extension of dom-testing-library to provide hooks into the shadow DOM.",
+    },
+    {
       url: "https://github.com/43081j/shadow-dom-utils",
       title: "shadow-dom-utils",
       thumbnail: "james-garbutt.jpeg",
@@ -86,6 +92,12 @@ module.exports = {
       title: "W3C Webdriver conquering automation of Shadow DOM",
       thumbnail: "medium.svg",
       quote: "Overview of the Shadow DOM tree and its interaction with the W3C Webdriver.",
+    },
+    {
+      url: "https://github.com/salesforce/wdio-shadowdom-service",
+      title: "wdio-shadowdom-service",
+      thumbnail: "salesforce.svg",
+      quote: "Plugin for WebDriverIO that makes CSS selectors transparently work with the shadow DOM.",
     },
   ],
 };
