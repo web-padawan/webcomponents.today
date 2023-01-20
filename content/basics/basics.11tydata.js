@@ -16,6 +16,12 @@ module.exports = {
       quote: "Web components are a new set of APIs built on web standards that are widely adopted by browsers.",
     },
     {
+      url: "https://htmlwithsuperpowers.netlify.app/get-started/",
+      title: "Introduction to Web Components",
+      thumbnail: "html-with-superpowers.png",
+      quote: "Let's get an understanding of what Web Components are and what problems they're trying to solve.",
+    },
+    {
       url: "https://www.smashingmagazine.com/2018/07/reusable-components-custom-elements-shadow-dom-npm/",
       title: "The Holy Grail of Reusable Components: Custom Elements, Shadow DOM, npm",
       thumbnail: "smashing.svg",
@@ -32,6 +38,13 @@ module.exports = {
       title: "The Power of Web Components",
       thumbnail: "mozilla-hacks.png",
       quote: "When used together, these new APIs enable something that was previously impossible to do natively.",
+    },
+    {
+      url: "https://htmlwithsuperpowers.netlify.app/using/",
+      title: "Using Web Components with HTML",
+      thumbnail: "html-with-superpowers.png",
+      quote:
+        "Web Components do not require advanced JavaScript knowledge or build tooling to use, it's plain old HTML.",
     },
     {
       url: "https://developer.mozilla.org/en-US/docs/Web/Web_Components",
