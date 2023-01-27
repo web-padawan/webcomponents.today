@@ -388,8 +388,32 @@ a:hover {
   color: var(--footer-color);
 }
 
-.footer--catalog > .container {
+.footer .container {
+  display: flex;
   padding-left: 2rem;
+}
+
+.footer__copy {
+  font-size: 1rem;
+}
+
+.footer__feed {
+  margin-left: auto;
+}
+
+.footer__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__icon {
+  margin-right: 0.5rem;
 }
 
 @media screen and (max-width: 1280px) {
@@ -481,7 +505,19 @@ a:hover {
   }
 
   .footer > .container {
-    padding-left: 1.5rem;
+    padding: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer > .container {
+    padding: 0 0.5rem;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .footer__feed {
+    margin: 1rem auto 0.5rem;
   }
 }
 
@@ -498,11 +534,6 @@ a:hover {
 
   .main__grid {
     grid-template-columns: 1fr;
-  }
-
-  .footer > .container {
-    padding: 0 0.5rem;
-    text-align: center;
   }
 }
 
