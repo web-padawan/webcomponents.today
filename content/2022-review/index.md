@@ -43,6 +43,7 @@ in Safari TP 156.
 - **Chrome** published [intent to prototype](https://groups.google.com/a/chromium.org/g/blink-dev/c/Ovz-6Dte-qA/m/ABaUFnt3CQAJ)
 streaming declarative shadow DOM. This will introduce differences compared to the original implementation
 added in Chrome 90.
+- **WebKit** fixed a [bug](https://bugs.webkit.org/show_bug.cgi?id=247134) preventing Shadow DOM content from being exposed to accessibility clients when used in an aria-modal or dialog. This fix was released in [Safari TP 160](https://webkit.org/blog/13639/release-notes-for-safari-technology-preview-160/).
 - **WebKit** has a [PR by Alexey Shvayka](https://github.com/WebKit/WebKit/pull/4988) to implement
 form associated Custom Elements currently in review. This feature might land in Safari Technology
 Preview early next year.
