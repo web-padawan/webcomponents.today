@@ -414,6 +414,7 @@ a:hover {
 
 .footer__icon {
   margin-right: 0.5rem;
+  fill: var(--title-color);
 }
 
 @media screen and (max-width: 1280px) {
