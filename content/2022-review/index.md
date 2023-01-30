@@ -3,6 +3,9 @@ tags: post
 title: 2022 in Review
 layout: layout
 templateEngineOverride: md
+eleventyNavigation:
+  key: 2022 in Review
+  order: 2
 ---
 
 Today marks one month since this project's launch! I'm incredibly proud to be able to share it with

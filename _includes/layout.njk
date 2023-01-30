@@ -58,16 +58,19 @@
           <aside class="sidebar">
             <div class="sidebar__wrapper">
               <div class="sidebar__group">
-                <h3 class="sidebar__title">About the Project</h3>
+                <div class="sidebar__item home {% if '/' == page.url %} sidebar__item--active home--active{% endif %}">
+                  <a class="sidebar__link home__link" href="/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="home__icon"><path d="M5 22h14a2 2 0 0 0 2-2v-9a1 1 0 0 0-.29-.71l-8-8a1 1 0 0 0-1.41 0l-8 8A1 1 0 0 0 3 11v9a2 2 0 0 0 2 2zm5-2v-5h4v5zm-5-8.59 7-7 7 7V20h-3v-5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v5H5z"></path></svg>
+                    Home
+                  </a>
+                </div>
+                <h3 class="sidebar__title">Project updates</h3>
                 <ul class="nav">
                 {%- for entry in collections.post | eleventyNavigation %}
-                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  <li class="sidebar__item {% if entry.url == page.url %} sidebar__item--active{% endif %}">
+                    <a class="sidebar__link nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
                   </li>
                 {%- endfor %}
-                  <li class="nav__item{% if '/' == page.url %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="/">2022 in Review</a>
-                  </li>
                 </ul>
               </div>
               <input type="checkbox" class="sidebar__checkbox" />
@@ -75,8 +78,8 @@
                 <h3 class="sidebar__title">Fundamentals</h3>
                 <ul class="nav">
                 {%- for entry in collections.fundamentals | eleventyNavigation %}
-                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  <li class="sidebar__item {% if entry.url == page.url %} sidebar__item--active{% endif %}">
+                    <a class="sidebar__link nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
                   </li>
                 {%- endfor %}
                 </ul>
@@ -86,8 +89,8 @@
                 <h3 class="sidebar__title">Standards</h3>
                 <ul class="nav">
                 {%- for entry in collections.standards | eleventyNavigation %}
-                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  <li class="sidebar__item {% if entry.url == page.url %} sidebar__item--active{% endif %}">
+                    <a class="sidebar__link nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
                   </li>
                 {%- endfor %}
                 </ul>
@@ -97,8 +100,8 @@
                 <h3 class="sidebar__title">Ecosystem</h3>
                 <ul class="nav">
                 {%- for entry in collections.ecosystem | eleventyNavigation %}
-                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  <li class="sidebar__item {% if entry.url == page.url %} sidebar__item--active{% endif %}">
+                    <a class="sidebar__link nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
                   </li>
                 {%- endfor %}
                 </ul>
@@ -108,8 +111,8 @@
                 <h3 class="sidebar__title">Articles</h3>
                 <ul class="nav">
                 {%- for entry in collections.articles | eleventyNavigation %}
-                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  <li class="sidebar__item {% if entry.url == page.url %} sidebar__item--active{% endif %}">
+                    <a class="sidebar__link nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
                   </li>
                 {%- endfor %}
                 </ul>
@@ -119,8 +122,8 @@
                 <h3 class="sidebar__title">Community</h3>
                 <ul class="nav">
                 {%- for entry in collections.community | eleventyNavigation %}
-                  <li class="nav__item{% if entry.url == page.url %} nav__item--active{% endif %}">
-                    <a class="nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
+                  <li class="sidebar__item {% if entry.url == page.url %} sidebar__item--active{% endif %}">
+                    <a class="sidebar__link nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
                   </li>
                 {%- endfor %}
                 </ul>
@@ -131,7 +134,8 @@
           {%- if header %}
             <h2 class="main__title">{{ header }}</h2>
             {%- if description %}<p class="main__description">{{ description }}</p>{% endif %}
-            {%- if date %}<p class="main__date">{{ date }}</p>{% endif %}
+            {%- if subtitle %}<p class="main__subtitle">{{ subtitle }}</p>{% endif %}
+            {%- if date %}<p class="main__description">{{ date }}</p>{% endif %}
           {%- endif %}
           {%- if items %}
             <div class="main__grid">
@@ -154,15 +158,29 @@
               </a>
             {%- endif %}
           {%- endif %}
-          {% if '/' == page.url %}
-            {% set postslist = collections.post %}
-            {%- if postslist[1].data.header %}
-              <h2 class="main__title">{{ postslist[1].data.header }}</h2>
-              <p class="main__date">{{ postslist[1].data.date }}</p>
-            {%- endif %}
-            <div class="main__content">{{ postslist[1].templateContent | safe }}</div>
-          {%- endif %}
             <div class="main__content">{{ content | safe }}</div>
+          {% if '/' == page.url %}
+            <h3 class="main__h3">Featured Projects</h3>
+            <p class="main__featured">These are great open source projects about Web Components worth your attention.</p>
+            <div class="main__grid">
+            {%- for item in featured %}
+              <a href="{{ item.url }}" class="item item--featured" target="_blank">
+                <img class="item__thumbnail item__thumbnail--featured" src="/img/{{ item.thumbnail }}" alt="">
+                <h3 class="item__title item__title--featured">{{ item.title }}</h3>
+              </a>
+            {% endfor -%}
+            </div>
+            <h3 class="main__h3">Author's Projects</h3>
+            <p class="main__featured">A few open source projects that the creator of this website is proud to be part of.</p>
+            <div class="main__grid">
+            {%- for item in authors %}
+              <a href="{{ item.url }}" class="item item--featured" target="_blank">
+                <img class="item__thumbnail item__thumbnail--featured" src="/img/{{ item.thumbnail }}" alt="">
+                <h3 class="item__title item__title--featured">{{ item.title }}</h3>
+              </a>
+            {% endfor -%}
+            </div>
+          {%- endif %}
           </main>
         </div>
       </div>
