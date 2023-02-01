@@ -36,7 +36,7 @@ from Firefox team: the position has changed from "neutral" to "positive". While 
 to browsers takes time, there is still hope that Shadow DOM streaming and proper SSR might become a
 reality sooner than later.
 
-By the way, Elliott Marques from the Lit team [published](https://mstdn.social/@techytacos/109779899255671612)
+By the way, Elliott Marquez from the Lit team [published](https://mstdn.social/@techytacos/109779899255671612)
 a small example for testing declarative shadow DOM streaming, which at the time of writing is also
 available in Chrome Canary (the new implementation didn't land in Chrome stable yet). The demo is
 quite small, [check it out](https://lit.dev/playground/#gist=d2540b636f7d9d420c2dd8ddd8436c81) if you
@@ -82,9 +82,9 @@ Shoelace and Cory LaViska [joined Font Awesome](https://blog.fontawesome.com/sho
 
 One thing that was special about Shoelace due to the past two years was its infinite beta stage. If
 you remember Babel 7, then you probably understand what I'm talking about — except that Shoelace had
-88 (!) beta releases. From an outsider's perspective, it's been quite a journey. If you don't trust
-me, check the [Git diff](https://github.com/shoelace-style/shoelace/compare/v2.0.0-beta.1..v2.0.0)
-between the first beta and the stable release.
+88 (!) beta releases. Now it is finally [stable](https://blog.fontawesome.com/shoelace-2-0-is-official/) —
+and from an outsider's perspective, it's been quite a journey. If you don't trust me, check out the
+[Git diff](https://github.com/shoelace-style/shoelace/compare/v2.0.0-beta.1..v2.0.0) since the first beta.
 
 ### New Bookmarks Additions
 
