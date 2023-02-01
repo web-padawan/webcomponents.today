@@ -524,7 +524,7 @@ a:hover {
     display: inline-block;
     height: 0.5rem;
     top: 1rem;
-    left: 0;
+    left: 0.675rem;
     transform: rotate(45deg);
     vertical-align: top;
     width: 0.5rem;
@@ -532,6 +532,7 @@ a:hover {
 
   .sidebar__checkbox:checked + .sidebar__group .sidebar__title::before {
     top: 0.875rem;
+    left: 0.75rem;
     transform: rotate(135deg);
   }
 
