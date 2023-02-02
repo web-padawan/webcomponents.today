@@ -130,8 +130,6 @@ a:hover {
 
 /* corner */
 .github-corner svg {
-  width: 80px;
-  height: 80px;
   fill: var(--title-color);
   color: var(--header-background);
 }
