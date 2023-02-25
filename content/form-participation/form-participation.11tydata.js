@@ -22,6 +22,12 @@ module.exports = {
       quote: "Limitation related to forms when placing a submit button in Shadow DOM.",
     },
     {
+      url: "https://webkit.org/blog/13711/elementinternals-and-form-associated-custom-elements/",
+      title: "ElementInternals and Form-Associated Custom Elements",
+      thumbnail: "webkit.png",
+      quote: "ElementInternals is a new addition to custom elements API introduced in Safari 16.4 beta release.",
+    },
+    {
       url: "https://github.com/open-wc/form-participation",
       title: "Form Participation",
       thumbnail: "open-wc.png",
