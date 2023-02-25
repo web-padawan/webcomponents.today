@@ -23,6 +23,12 @@ module.exports = {
         "Experimental way to implement and use Shadow DOM directly in HTML, enabling Server-Side Rendering support.",
     },
     {
+      url: "https://webkit.org/blog/13851/declarative-shadow-dom/",
+      title: "Declarative Shadow DOM",
+      thumbnail: "webkit.png",
+      quote: "Support for the declarative shadow DOM API has enabled by default in Safari 16.4 beta release.",
+    },
+    {
       url: "https://github.com/WICG/webcomponents/blob/gh-pages/proposals/Scoped-Custom-Element-Registries.md",
       title: "Scoped Custom Element Registries",
       thumbnail: "wicg.png",
@@ -61,7 +67,7 @@ module.exports = {
         "Group for collaboration between people working on web components libraries, tools, documentation and standards.",
     },
     {
-      url: "https://w3c.github.io/webcomponents-cg/",
+      url: "https://w3c.github.io/webcomponents-cg/2021.html",
       title: "Web Components Community Group: 2021 Spec/API status",
       thumbnail: "wc-cg.svg",
       quote: "Yearly update on the lacking web components features that block adoption or cause pain points.",
