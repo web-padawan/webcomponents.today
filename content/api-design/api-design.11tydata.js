@@ -35,16 +35,16 @@ module.exports = {
       quote: "How to work with web components, what to consider when making them, and how to embrace them.",
     },
     {
-      url: "https://coryrylan.com/blog/reusable-ui-components-and-data-binding",
-      title: "Reusable UI Components and Data Binding",
-      thumbnail: "cory-rylan.png",
-      quote: "API design for reusable web components when passing data or setting the state of a UI component.",
-    },
-    {
       url: "https://coryrylan.com/blog/reusable-component-anti-patterns-semantic-obfuscation",
       title: "Reusable Component Anti-Patterns - Semantic Obfuscation",
       thumbnail: "cory-rylan.png",
       quote: "One of the common pitfalls when designing composition-based DOM API for reusable web components.",
+    },
+    {
+      url: "https://coryrylan.com/blog/reusable-ui-components-and-data-binding",
+      title: "Reusable UI Components and Data Binding",
+      thumbnail: "cory-rylan.png",
+      quote: "API design for reusable web components when passing data or setting the state of a UI component.",
     },
     {
       url: "https://dev.to/begin/selecting-3rd-party-web-components-5hjk",
