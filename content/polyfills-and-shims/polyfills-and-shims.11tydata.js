@@ -53,6 +53,12 @@ module.exports = {
         "Experimental Lit mixin to support using multiple different versions of the same web component on the page.",
     },
     {
+      url: "https://github.com/Marshal27/shadow-container-query-polyfill",
+      title: "Shadow Container Query Polyfill",
+      thumbnail: "github.svg",
+      quote: "Fork of Container Query polyfill by GoogleChromeLabs with some tweaks adding support for Shadow DOM.",
+    },
+    {
       url: "https://github.com/github/template-parts",
       title: "Template Parts",
       thumbnail: "github.svg",
