@@ -37,18 +37,6 @@ module.exports = {
       quote: "A checklist that attempts to maximize compatibility, standards compliance, flexibility, and usefulness.",
     },
     {
-      url: "https://open-wc.org/guides/knowledge/attributes-and-properties/",
-      title: "Knowledge: Attributes and properties",
-      thumbnail: "open-wc.png",
-      quote: "The difference between attributes and properties is a common source of confusion for developers.",
-    },
-    {
-      url: "https://css-tricks.com/making-web-components-for-different-contexts/",
-      title: "Making Web Components for Different Contexts",
-      thumbnail: "css-tricks.svg",
-      quote: "How to work with web components, what to consider when making them, and how to embrace them.",
-    },
-    {
       url: "https://github.com/basic-web-components/components-dev/wiki/Ten-Principles-for-Great-General-Purpose-Web-Components",
       title: "Ten Principles for Great General Purpose Web Components",
       thumbnail: "github.svg",

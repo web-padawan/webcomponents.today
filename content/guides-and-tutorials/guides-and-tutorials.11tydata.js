@@ -23,13 +23,6 @@ module.exports = {
       quote: "The cost we pay for not using a sophisticated framework and how you have to think of workarounds.",
     },
     {
-      url: "https://itnext.io/handling-data-with-web-components-9e7e4a452e6e",
-      title: "Handling data with Web Components",
-      thumbnail: "medium.svg",
-      quote:
-        "Custom elements concepts of attributes and properties are slightly different and not as comfortable as React props.",
-    },
-    {
       url: "https://www.smashingmagazine.com/2020/01/recreating-arduino-pushbutton-svg/",
       title: "Recreating The Arduino Pushbutton Using SVG And <lit-element>",
       thumbnail: "smashing.svg",
@@ -40,12 +33,6 @@ module.exports = {
       title: "Stencil – Web Components On Steroids",
       thumbnail: "thinktecture.png",
       quote: "Stencil is a compiler helping to create custom Web Components libraries.",
-    },
-    {
-      url: "https://coryrylan.com/blog/using-modern-web-components",
-      title: "Using Modern Web Components",
-      thumbnail: "cory-rylan.png",
-      quote: "Web Components use the same set of standard shared public APIs, regardless of how you build them.",
     },
     {
       url: "https://css-tricks.com/using-web-components-in-wordpress-is-easier-than-you-think/",

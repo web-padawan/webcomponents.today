@@ -37,18 +37,6 @@ module.exports = {
         "A suite of tests for different frameworks to identify interoperability issues, and highlight potential fixes.",
     },
     {
-      url: "https://nolanlawson.com/2021/08/03/handling-properties-in-custom-element-upgrades/",
-      title: "Handling properties in custom element upgrades",
-      thumbnail: "nolan-lawson.png",
-      quote: "About a tricky situation with properties and the component lifecycle.",
-    },
-    {
-      url: "https://gist.github.com/WebReflection/ec9f6687842aa385477c4afca625bbf4",
-      title: "Handy Custom Elements' Patterns",
-      thumbnail: "github.svg",
-      quote: "A collection of common patterns for using with Custom Elements.",
-    },
-    {
       url: "https://html.spec.whatwg.org/multipage/custom-elements.html",
       title: "HTML Standard: Custom elements",
       thumbnail: "whatwg.svg",
