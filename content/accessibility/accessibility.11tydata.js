@@ -36,6 +36,12 @@ module.exports = {
       quote: "A look at getting native dialogs to play nicely with shadow DOM.",
     },
     {
+      url: "https://alice.pages.igalia.com/blog/how-shadow-dom-and-accessibility-are-in-conflict/",
+      title: "How Shadow DOM and accessibility are in conflict",
+      thumbnail: "igalia.png",
+      quote: "Encapsulation makes children of a shadow root private to any siblings or ancestors of the shadow host.",
+    },
+    {
       url: "https://nolanlawson.com/2021/02/13/managing-focus-in-the-shadow-dom/",
       title: "Managing focus in the shadow DOM",
       thumbnail: "nolan-lawson.png",
