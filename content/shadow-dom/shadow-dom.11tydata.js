@@ -63,6 +63,12 @@ module.exports = {
         "Shadow DOM API is a key part of web components, providing a way to attach a hidden separated DOM to an element.",
     },
     {
+      url: "https://javascript.works-hub.com/learn/web-components-api-shadow-dom-and-light-dom-e18b6",
+      title: "Web Components API: Shadow DOM and Light DOM",
+      thumbnail: "javascript-works.jpeg",
+      quote: "Using shadow DOM to define the content of the component, the markup, and the component's structure.",
+    },
+    {
       url: "https://bitsofco.de/what-is-the-shadow-dom/",
       title: "What is the Shadow DOM?",
       thumbnail: "bitsofcode.png",
@@ -73,12 +79,6 @@ module.exports = {
       title: "Who doesn't love some slots?",
       thumbnail: "devto.png",
       quote: "About the concept of Stacked Slots on the example of help text pattern.",
-    },
-    {
-      url: "https://dev.to/westbrook/your-content-in-shadow-dom-portals-3cdb",
-      title: "Your Content in Shadow DOM Portals",
-      thumbnail: "devto.png",
-      quote: "Prototype of the portals concept with web components, inspired by PortalVue.",
     },
   ],
 };
