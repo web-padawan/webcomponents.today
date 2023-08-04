@@ -4,6 +4,12 @@ module.exports = {
   description: "New platform features that are currently in development and are not supported by all browsers.",
   items: [
     {
+      url: "https://eisenbergeffect.medium.com/2023-state-of-web-components-c8feb21d4f16",
+      title: "2023 State of Web Components",
+      thumbnail: "medium.svg",
+      quote: "Web Components in 2023 and beyond.",
+    },
+    {
       url: "https://css-tricks.com/css-modules-the-native-ones/",
       title: "CSS Modules (The Native Ones)",
       thumbnail: "css-tricks.svg",
