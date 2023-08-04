@@ -73,6 +73,12 @@ module.exports = {
       quote: "A zero-dependency web component for comparing two images using a slider.",
     },
     {
+      url: "https://github.com/Frameright/image-display-control-web-component",
+      title: "Image Display Control",
+      thumbnail: "frameright.png",
+      quote: "A custom <img> element that responsively displays the best fitting image region.",
+    },
+    {
       url: "https://github.com/GoogleChromeLabs/input-knob",
       title: "<input-knob>",
       thumbnail: "input-knob.png",
