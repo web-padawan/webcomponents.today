@@ -171,6 +171,12 @@ module.exports = {
       quote: "Selectize-like component written in Svelte, usable as custom element.",
     },
     {
+      url: "https://swiperjs.com/element",
+      title: "Swiper Element",
+      thumbnail: "swiper.svg",
+      quote: "Swiper web components are available since Swiper version 9.",
+    },
+    {
       url: "https://github.com/node-projects/tab.webcomponent",
       title: "tab.webcomponent",
       thumbnail: "node-projects.png",

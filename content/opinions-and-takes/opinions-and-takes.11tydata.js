@@ -10,6 +10,12 @@ module.exports = {
       quote: "Thanks to Web Components, you don't need to rebuild buttons and other UI primitives every few years.",
     },
     {
+      url: "https://eisenbergeffect.medium.com/debunking-web-component-myths-and-misconceptions-ea9bb13daf61",
+      title: "Debunking Web Component Myths and Misconceptions",
+      thumbnail: "medium.svg",
+      quote: "There’s a lot of bad information on Web Components in the wild.",
+    },
+    {
       url: "https://nhswd.com/blog/6-false-claims-about-web-components/",
       title: "Fake news: 6 false claims about Web Components",
       thumbnail: "nhswd.png",
@@ -20,6 +26,12 @@ module.exports = {
       title: "How searching for a bundle-free React led me to web components",
       thumbnail: "bryan-Braun.png",
       quote: "I experimented with web components back in 2015, and things were bad.",
+    },
+    {
+      url: "https://daverupert.com/2023/07/why-not-webcomponents/",
+      title: "If Web Components are so great, why am I not using them?",
+      thumbnail: "dave-rupert.png",
+      quote: "Web Components have a marketing problem.",
     },
     {
       url: "https://dev.to/steveblue/it-s-not-about-web-components-vs-react-5137",
