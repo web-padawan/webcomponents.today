@@ -64,17 +64,6 @@
                     Home
                   </a>
                 </div>
-                <input type="checkbox" class="sidebar__checkbox" />
-                <div class="sidebar__group">
-                  <h3 class="sidebar__title">Project updates</h3>
-                  <ul class="nav">
-                  {%- for entry in collections.post | eleventyNavigation %}
-                    <li class="sidebar__item {% if entry.url == page.url %} sidebar__item--active{% endif %}">
-                      <a class="sidebar__link nav__link" href="{{ entry.url | url }}">{{ entry.title }}</a>
-                    </li>
-                  {%- endfor %}
-                  </ul>
-                </div>
               </div>
               <input type="checkbox" class="sidebar__checkbox" />
               <div class="sidebar__group">
