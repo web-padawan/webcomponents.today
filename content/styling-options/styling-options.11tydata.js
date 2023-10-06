@@ -111,19 +111,6 @@ module.exports = {
         "Defining styles for a web component in a don’t-leak-out way, and less so a way to get global styles to leak in.",
     },
     {
-      url: "https://campzulu.hashnode.dev/using-tailwindcss-with-web-components-and-shadowdom-in-litelement",
-      title: "Using Tailwind CSS with web components and Shadow DOM in LitElement",
-      thumbnail: "campzulu.png",
-      quote: "With LitElement we found a good way to get the best of both worlds without having to disable ShadowDOM.",
-    },
-    {
-      url: "https://campzulu.hashnode.dev/using-tailwindcss-with-web-components-and-shadowdom-in-litelement",
-      title: "Using Tailwind v3 with Lit elements",
-      thumbnail: "devto.png",
-      quote:
-        "Quite often I see people asking around the Lit community about how to use Tailwind inside their Lit elements.",
-    },
-    {
       url: "https://css-tricks.com/web-component-pseudo-classes-and-pseudo-elements/",
       title: "Web Component Pseudo-Classes and Pseudo-Elements",
       thumbnail: "css-tricks.svg",
